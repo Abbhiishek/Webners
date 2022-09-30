@@ -2,12 +2,7 @@
 
 **We are accepting all Kind of Web Projects and Resources to upskill our  Developer Skills**
 
-<p align="center">
-  <a href="https://github.com/metafy-social/daily-python-scripts/issues"><img src="https://img.shields.io/github/issues/metafy-social/daily-python-scripts.svg?style=for-the-badge&logo=appveyor" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/metafy-social/daily-python-scripts/fork"><img src="https://img.shields.io/github/forks/metafy-social/daily-python-scripts.svg?style=for-the-badge&logo=appveyor" /></a>&nbsp;&nbsp;
-  <a href="#"><img src="https://img.shields.io/github/stars/metafy-social/daily-python-scripts.svg?style=for-the-badge&logo=appveyor" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/metafy-social/daily-python-scripts/blob/master/LICENSE"><img src="https://img.shields.io/github/license/metafy-social/daily-python-scripts.svg?style=for-the-badge&logo=appveyor" /></a>&nbsp;&nbsp;
-</p>
+
 
 <p align="center">
   <a href="#"><img src="https://forthebadge.com/images/badges/built-with-love.svg" /></a>&nbsp;&nbsp;
