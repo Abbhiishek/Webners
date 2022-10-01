@@ -9,6 +9,11 @@
         "github": "https://github.com/Abbhiishek"
     },
     {
-
+        "id": 1,
+        "type": "github",
+        "username": "srinjoy-26",
+        "place": "Kolkata , WestBengal",
+        "bio": "Developer",
+        "github": "https://github.com/srinjoy-26"
     }
 ]
