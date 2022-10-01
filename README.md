@@ -35,7 +35,7 @@ You can contribute by adding new Web Projects, improving current projects or Doc
 ## How to contribute to this project
 Here are 3 quick and painless ways to contribute to this project:
 
-* Add your name to the `CONTRIBUTORS.md` file
+* Add your name to the `CONTRIBUTORS.json` file
 * Add a profile page to the `Profiles` directory
 * Add a link to this project on your social media
 
