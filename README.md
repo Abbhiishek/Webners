@@ -7,6 +7,10 @@
 <p align="center">
   <a href="#"><img src="https://forthebadge.com/images/badges/built-with-love.svg" /></a>&nbsp;&nbsp;
   <a href="#"><img src="https://forthebadge.com/images/badges/built-by-developers.svg" /></a>&nbsp;&nbsp;
+  
+  ![GitHub labels](https://img.shields.io/github/labels/Abbhiishek/Webners/Hacktoberfest?style=for-the-badge)
+  ![GitHub issues](https://img.shields.io/github/issues/Abbhiishek/Webners?style=for-the-badge)
+  ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/Abbhiishek/Webners?style=for-the-badge)
 </p>
 
 ## Hacktoberfest 2022 Update
