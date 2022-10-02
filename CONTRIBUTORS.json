@@ -27,28 +27,31 @@
         ]
     },
     {
-        "id": <Unique Number>,
+        "id": 2,
         "type": "github",
-        "username": "",
+        "username": "ChandanP007",
         "place": "Kolkata , WestBengal",
         "bio": "Developer",
-        "github": "",
+        "github": "https://github.com/ChandanP007",
         "interests": [
-            
+            "Web Development"
+            "Android"
+            "Machine Learning"
         ],
         "Projects": [
             {
                 "id": 1,
-                "name": "",
-                "description": "",
-                "link": ""
+                "name": "Webners",
+                "description": "A simple todo application built using javascript",
+                "link": "https://github.com/Abbhiishek/Webners/Contributions/todocp"
             }
         ],
-        "Academics": "",
+        "Academics": "BTECH CSE",
         "Skills": [
             "HTML",
             "CSS",
             "JS"
+            "REACT"
         ]
     }
     
