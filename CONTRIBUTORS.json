@@ -1,14 +1,55 @@
 [
-
     {
         "id": 1,
         "type": "github",
-        "username": "Abbhiishek",
+        "username": "srinjoy-26",
         "place": "Kolkata , WestBengal",
         "bio": "Developer",
-        "github": "https://github.com/Abbhiishek"
+        "github": "https://github.com/srinjoy-26",
+        "interests": [
+            "Web Development",
+            "App Development",
+            "blockchain"
+        ],
+        "Projects": [
+            {
+                "id": 1,
+                "name": "Webners",
+                "description": "A website for developers",
+                "link": "https://github.com/Abbhiishek/Webners"
+            }
+        ],
+        "Academics": "B.Tech in Information Technology",
+        "Skills": [
+            "HTML",
+            "CSS",
+            "JS"
+        ]
     },
     {
-
+        "id": <Unique Number>,
+        "type": "github",
+        "username": "",
+        "place": "Kolkata , WestBengal",
+        "bio": "Developer",
+        "github": "",
+        "interests": [
+            
+        ],
+        "Projects": [
+            {
+                "id": 1,
+                "name": "",
+                "description": "",
+                "link": ""
+            }
+        ],
+        "Academics": "",
+        "Skills": [
+            "HTML",
+            "CSS",
+            "JS"
+        ]
     }
+    
 ]
