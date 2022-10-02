@@ -1,0 +1,8 @@
+name: Greetings
+run-name: Greetings, ${{ github.actor }} 🚀
+on: [issues]
+    types: [opened]
+jobs:
+  runs-on: ubuntu-latest
+  steps:
+    - run: echo "Thank you for opening this issue."
