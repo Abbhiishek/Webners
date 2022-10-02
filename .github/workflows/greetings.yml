@@ -4,6 +4,8 @@ on:
   issues:
     types: [opened]
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - run: echo "Thank you for opening this issue."
+  greetings-on-new-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: echo "Thank you for opening this issue."
