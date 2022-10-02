@@ -1,8 +1,6 @@
 name: Greetings
 run-name: Greetings, ${{ github.actor }} 🚀
-on: 
-  push:
-    types: [opened]
+on: [push] 
 jobs:
   greetings-on-new-issue:
     runs-on: ubuntu-latest
