@@ -9,6 +9,24 @@
         "github": "https://github.com/Abbhiishek"
     },
     {
-
+        "id": 2,
+        "type": "github",
+        "username": "Sayantan",
+        "place": "Kolkata , WestBengal",
+        "bio": "Developer",
+        "github": "https://github.com/SayanTan772",
+        "interests": [
+            "Full Stack Development",
+            "Content Writing" ],
+        "Projects": [
+            {
+                "id": 1,
+                "name": "Product Preview Card Component",
+                "description": "A frontend project to learn flexbox properties",
+                "link": "https://sayantan772.github.io/product-preview-card-component/"
+            }
+        ],
+        "Academics": "B.Tech in Computer Science and Engineering",
+        "Skills": [ "C", "C++", "HTML", "CSS", "JS" ]
     }
 ]
