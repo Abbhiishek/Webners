@@ -27,24 +27,23 @@
         ]
     },
     {
-        "id": <Unique Number>,
+        "id": 2,
         "type": "github",
-        "username": "",
+        "username": "SayanTan772",
         "place": "Kolkata , WestBengal",
         "bio": "Developer",
-        "github": "",
-        "interests": [
-            
+        "github": "https://github.com/SayanTan772",
+        "interests": [ "Web Development", "Content Writing"  
         ],
         "Projects": [
             {
                 "id": 1,
-                "name": "",
-                "description": "",
-                "link": ""
+                "name": "Product Preview Card Component",
+                "description": "A project to learn real-time implementation of flexbox in CSS",
+                "link": "https://sayantan772.github.io/product-preview-card-component/"
             }
         ],
-        "Academics": "",
+        "Academics": "B.Tech in Computer science and Engineering",
         "Skills": [
             "HTML",
             "CSS",
