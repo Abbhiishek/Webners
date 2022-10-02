@@ -1,14 +1,41 @@
 [
-
     {
-        "id": 1,
-        "type": "github",
-        "username": "Abbhiishek",
-        "place": "Kolkata , WestBengal",
-        "bio": "Developer",
-        "github": "https://github.com/Abbhiishek"
+      "id": 1,
+      "type": "github",
+      "username": "Abbhiishek",
+      "place": "Kolkata , WestBengal",
+      "bio": "Developer",
+      "github": "https://github.com/Abbhiishek",
+      "interests": ["Web Development", "App Development", "Machine Learning"],
+      "Projects": [
+        {
+          "id": 1,
+          "name": "Webners",
+          "description": "A website for developers",
+          "link": ""
+        }
+      ],
+      "Academics": "B.Tech in Computer Science and Engineering",
+      "Skills": ["Python"]
     },
     {
-
+      "id": 2,
+      "type": "github",
+      "username": "Amarjit Khan",
+      "place": "Durgapur , WestBengal",
+      "bio": "Developer",
+      "github": "https://github.com/Amarjit-Khan",
+      "interests": ["Web Development", "Machine Learning"],
+      "Projects": [
+        {
+          "id": 4,
+          "name": "Contributors-website",
+          "description": "A website for contributors",
+          "link": "https://amarjit-khan.github.io/Contributors-website/"
+        }
+      ],
+      "Academics": "B.Tech in Computer Science and Engineering",
+      "Skills": ["Java"]
     }
-]
+  ]
+  
