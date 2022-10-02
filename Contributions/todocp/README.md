@@ -9,4 +9,4 @@ A Simple todo application built using javascript
 - JavaScript
 
 ### Link
-[Todo-CP](https://github.com/ChandanP007/Webners/new/main/Contributions/todocp)
+[Todo-CP](https://github.com/ChandanP007/Webners/main/Contributions/todocp)
