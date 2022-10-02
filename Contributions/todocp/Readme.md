@@ -11,4 +11,4 @@ A basic todo application built using html, css and javascript. Nothing much 🙂
 
 ### Link
 
-[Your Project Name](GitHub Link)
+[todocp](GitHub Link)
