@@ -9,6 +9,11 @@
         "github": "https://github.com/Abbhiishek"
     },
     {
-
+        "id": 2,
+        "type": "github",
+        "username": "ChandanP007",
+        "place": "Kolkata , WestBengal",
+        "bio": "Developer",
+        "github": "https://github.com/ChandanP007"
     }
 ]
