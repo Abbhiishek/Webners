@@ -2,17 +2,6 @@
     {
         "id": 1,
         "type": "github",
-        "username": "Abbhiishek",
-        "place": "Kolkata , WestBengal",
-        "bio": "Developer",
-        "github": "https://github.com/Abbhiishek"
-    },
-    
-
-
-    {
-        "id": 2,
-        "type": "github",
         "username": "srinjoy-26",
         "place": "Kolkata , WestBengal",
         "bio": "Developer",
@@ -36,5 +25,31 @@
             "CSS",
             "JS"
         ]
+    },
+    {
+        "id": <Unique Number>,
+        "type": "github",
+        "username": "",
+        "place": "Kolkata , WestBengal",
+        "bio": "Developer",
+        "github": "",
+        "interests": [
+            
+        ],
+        "Projects": [
+            {
+                "id": 1,
+                "name": "",
+                "description": "",
+                "link": ""
+            }
+        ],
+        "Academics": "",
+        "Skills": [
+            "HTML",
+            "CSS",
+            "JS"
+        ]
     }
+    
 ]
