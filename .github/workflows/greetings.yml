@@ -1,7 +1,7 @@
 name: Greetings
 run-name: Greetings, ${{ github.actor }} 🚀
 on: 
-  issues:
+  push:
     types: [opened]
 jobs:
   greetings-on-new-issue:
