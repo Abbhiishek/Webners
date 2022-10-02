@@ -1,9 +1,20 @@
-name: Greetings
-run-name: Greetings, ${{ github.actor }} 🚀
-on: [push] 
+name: Greetings!
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
 jobs:
-  greetings-on-new-issue:
+  add-comment:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
     steps:
-      - uses: actions/checkout@v3
-      - run: echo "Thank you for opening this issue."
+      - name: Add Comment
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          issue-number: ${{ github.event.issue.number }}${{ github.event.pull_request.number }}
+          body: |
+            Thank you! 😄 for your valuable contribution.
+            We'll give you an update regarding this as soon as possible.
