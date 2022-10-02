@@ -1,5 +1,4 @@
 [
-
     {
         "id": 1,
         "type": "github",
@@ -8,7 +7,34 @@
         "bio": "Developer",
         "github": "https://github.com/Abbhiishek"
     },
-    {
+    
 
+
+    {
+        "id": 2,
+        "type": "github",
+        "username": "srinjoy-26",
+        "place": "Kolkata , WestBengal",
+        "bio": "Developer",
+        "github": "https://github.com/srinjoy-26",
+        "interests": [
+            "Web Development",
+            "App Development",
+            "blockchain"
+        ],
+        "Projects": [
+            {
+                "id": 1,
+                "name": "Webners",
+                "description": "A website for developers",
+                "link": "https://github.com/Abbhiishek/Webners"
+            }
+        ],
+        "Academics": "B.Tech in Information Technology",
+        "Skills": [
+            "HTML",
+            "CSS",
+            "JS"
+        ]
     }
 ]
