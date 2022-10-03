@@ -1,0 +1,36 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webners</title>
+</head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+<link rel="stylesheet" href="style.css">
+<script>
+
+  $(function () {
+    $.getJSON('../../CONTRIBUTORS.json', function (data) {
+      $.each(data, function (i, f) {
+        var contro = "<div class='review-box'>" + "<div class='card'>" + "<div class='profile'>" + "<img src='" + f.github + ".png'>" + "<div>" + "<h3>" + f.username + "</h3>" + "<p>" + f.bio + "</p>" + "</div>" + "</div>" + "<p class='card-para'>" + "Hi, I am " + "<b>" + f.username + "</b>" + " from " + f.place + ". My interests are " + f.interests + ". I am currently pursuing " + f.Academics + " and I am proficient in " + f.Skills + ". I contributed to this repository by creating a project " + f.Projects[0].name + ", " + f.Projects[0].description + "." + "</p>" + "<br>" + "<div class='card-footer'>" + "<a href='" + f.github + "' target='_blank' class='btn-card'>" + "My Github" + "</a>" + "<a href='" + f.Projects[0].link + "' target='_blank' class='btn-card'>" + "My Contribution" + "</a>" + "/div" + "/div"
+        $(contro).appendTo("#data");
+      });
+    });
+  });
+
+</script>
+</head>
+
+<body>
+  <div className='hero'>
+    <h1>OUR CONTRIBUTORS</h1>
+    <div class="grid container" id="data">
+    </div>
+  </div>
+
+</body>
+
+</html>
