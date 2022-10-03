@@ -53,6 +53,28 @@
             "JS",
             "REACT",
         ]
+    },
+    {
+        "id": 3,
+        "type": "github",
+        "username": "Amarjit Khan",
+        "place": "Durgapur , WestBengal",
+        "bio": "Developer",
+        "github": "https://github.com/Amarjit-Khan",
+        "interests": [
+            "Web Development",
+            "Machine Learning"
+        ],
+        "Projects": [
+            {
+                "id": 1,
+                "name": "Contributors-website",
+                "description": "A website to list names of all contributors",
+                "link": "https://amarjit-khan.github.io/Contributors-website/"
+            }
+        ],
+        "Academics": "B.Tech in Computer Science",
+        "Skills": [ "Java" ]
     }
     
 ]

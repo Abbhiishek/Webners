@@ -1,0 +1,3 @@
+[submodule "Contributions/Contributors-website"]
+	path = Contributions/Contributors-website
+	url = https://github.com/Amarjit-Khan/Contributors-website.git
