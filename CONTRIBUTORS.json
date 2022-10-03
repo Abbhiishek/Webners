@@ -102,5 +102,32 @@
       "CSS",
       "JS",
     ]
-  }
+  },
+  {
+    "id": 5,
+    "type": "github",
+    "username": "TechSeason",
+    "place": "Lucknow , Utter Pradesh",
+    "bio": "Developer",
+    "github": "https://github.com/techseason",
+    "interests": [
+        "Web Development",
+        "App Development",
+        "Ui/Ux designing"
+    ],
+    "Projects": [
+        {
+            "id": 5,
+            "name": "TechSeasonCSIT",
+            "description": "A website for 1st year students",
+            "link": "techseason.netlify.app"
+        }
+    ],
+    "Academics": "B.Tech in Computer Science and Engineering",
+    "Skills": [
+        "Python",
+        "c++",
+        "JAVA"
+    ]
+}
 ]
