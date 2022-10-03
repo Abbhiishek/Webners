@@ -1,54 +1,106 @@
 [
-    {
+  {
+    "id": 1,
+    "type": "github",
+    "username": "srinjoy-26",
+    "place": "Kolkata , WestBengal",
+    "bio": "Developer",
+    "github": "https://github.com/srinjoy-26",
+    "interests": [
+      "Web Development",
+      "App Development",
+      "blockchain"
+    ],
+    "Projects": [
+      {
         "id": 1,
-        "type": "github",
-        "username": "srinjoy-26",
-        "place": "Kolkata , WestBengal",
-        "bio": "Developer",
-        "github": "https://github.com/srinjoy-26",
-        "interests": [
-            "Web Development",
-            "App Development",
-            "blockchain"
-        ],
-        "Projects": [
-            {
-                "id": 1,
-                "name": "Webners",
-                "description": "A website for developers",
-                "link": "https://github.com/Abbhiishek/Webners"
-            }
-        ],
-        "Academics": "B.Tech in Information Technology",
-        "Skills": [
-            "HTML",
-            "CSS",
-            "JS"
-        ]
-    },
-    {
-        "id": 2,
-        "type": "github",
-        "username": "SayanTan772",
-        "place": "Kolkata , WestBengal",
-        "bio": "Developer",
-        "github": "https://github.com/SayanTan772",
-        "interests": [ "Web Development", "Content Writing"  
-        ],
-        "Projects": [
-            {
-                "id": 1,
-                "name": "Product Preview Card Component",
-                "description": "A project to learn real-time implementation of flexbox in CSS",
-                "link": "https://sayantan772.github.io/product-preview-card-component/"
-            }
-        ],
-        "Academics": "B.Tech in Computer science and Engineering",
-        "Skills": [
-            "HTML",
-            "CSS",
-            "JS"
-        ]
-    }
-    
+        "name": "Webners",
+        "description": "A website for developers",
+        "link": "https://github.com/Abbhiishek/Webners"
+      }
+    ],
+    "Academics": "B.Tech in Information Technology",
+    "Skills": [
+      "HTML",
+      "CSS",
+      "JS"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "github",
+    "username": "ChandanP007",
+    "place": "Kolkata , WestBengal",
+    "bio": "Developer",
+    "github": "https://github.com/ChandanP007",
+    "interests": [
+      "Web Development",
+      "Android",
+      "Machine Learning"
+    ],
+    "Projects": [
+      {
+        "id": 1,
+        "name": "Webners",
+        "description": "A simple todo application built using javascript",
+        "link": "https://github.com/Abbhiishek/Webners/Contributions/todocp"
+      }
+    ],
+    "Academics": "BTECH CSE",
+    "Skills": [
+      "HTML",
+      "CSS",
+      "JS",
+      "REACT"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "github",
+    "username": "Amarjit Khan",
+    "place": "Durgapur , WestBengal",
+    "bio": "Developer",
+    "github": "https://github.com/Amarjit-Khan",
+    "interests": [
+      "Web Development",
+      "Machine Learning"
+    ],
+    "Projects": [
+      {
+        "id": 1,
+        "name": "Contributors-website",
+        "description": "A website to list names of all contributors",
+        "link": "https://amarjit-khan.github.io/Contributors-website/"
+      }
+    ],
+    "Academics": "B.Tech in Computer Science",
+    "Skills": [
+      "Java"
+    ]
+  },
+  {
+    "id": 4,
+    "type": "github",
+    "place": "Kolkata , WestBengal",
+    "bio": "Developer",
+    "github": "https://github.com/SayanTan772",
+    "interests": [
+      "Web Development",
+      "Content Writing"
+    ],
+    "Projects": [
+      {
+        "id": 1,
+        "name": "Product Preview Card Component",
+        "description": "A project to learn real-time implementation of flexbox in CSS",
+        "link": "https://sayantan772.github.io/product-preview-card-component/"
+      }
+    ],
+    "Academics": "B.Tech in Computer science and Engineering",
+    "Skills": [
+      "HTML",
+      "CSS",
+      "JS",
+    ]
+  }
 ]
