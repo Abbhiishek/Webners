@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Montserrat:wght@400;500;700&family=Orbitron&family=Prompt:wght@400;500;700&display=swap");
+
+        :root {
+            --color-p: #3a5cd1;
+            --color-white: #fff;
+            --color-light-gray: #eff2f5;
+            --color-mid-gray: #96a0b5;
+            --color-dark-gray: #6d7d93;
+            --color-dark: #182550;
+            --color-red: #d13a3a;
+        }
+
+        h1 {
+            font-size: 2.441rem;
+            line-height: 1.4rem;
+        }
+
+        h2 {
+            font-size: 1.953rem;
+        }
+
+        h3 {
+            font-size: 1.563rem;
+        }
+
+        h4 {
+            font-size: 1.25rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--color-p);
+            transition: all 0.3s ease-out;
+        }
+
+        a:hover {
+            color: var(--color-dark);
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-underline {
+            text-decoration: underline;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 24px;
+        }
+
+        body {
+            background: var(--color-white);
+            color: var(--color-dark);
+            font-size: 1rem;
+            font-family: Dongle, sans-serif;
+            line-height: 1.3rem;
+        }
+
+        img,
+        svg {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .wrapper {
+            min-height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            text-align: center;
+        }
+
+        .left {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 3rem;
+            transition: all 0.3s ease-out;
+        }
+
+        .left h1 {
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .left .social-buttons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 0.75rem;
+            gap: 1rem;
+        }
+
+        .left .social-buttons a {
+            padding: 8px;
+            display: inline-block;
+            background-color: var(--color-light-gray);
+            border-radius: 4px;
+        }
+
+        .left-inner {
+            display: flex;
+            flex-flow: column wrap;
+        }
+
+        .seperator {
+            position: relative;
+        }
+
+        .seperator:before {
+            content: "";
+            position: absolute;
+            top: 38%;
+            left: 0;
+            z-index: 1;
+            height: 1px;
+            width: 100%;
+            background-color: var(--color-mid-gray);
+        }
+
+        .seperator span {
+            background-color: var(--color-white);
+            padding: 0 1rem;
+            display: inline-block;
+            position: relative;
+            z-index: 2;
+            color: var(--color-mid-gray);
+            margin-bottom: 0.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            color: var(--color-dark-gray);
+        }
+
+        input {
+            background-color: var(--color-light-gray);
+            padding: 0.5rem;
+            border: 1px solid transparent;
+            width: 100%;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-family: Dongle, sans-serif;
+        }
+
+        input:focus {
+            color: var(--color-dark);
+            background-color: var(--color-white);
+            border-color: var(--color-p);
+            outline: 0;
+            border: 1px solid var(--color-p);
+        }
+
+        input.error {
+            border: 1.5px solid var(--color-red);
+        }
+
+        .form-radio,
+        .form-checkbox {
+            appearance: none;
+            display: inline-block;
+            position: relative;
+            background-color: var(--color-white);
+            border: 2px solid #bdbcc0;
+            height: 24px;
+            width: 24px;
+            border-radius: 50px;
+            cursor: pointer;
+            margin: 0 10px 0 0;
+            outline: none;
+            padding: 0;
+        }
+
+        .form-radio:checked::before,
+        .form-checkbox:checked::before {
+            position: absolute;
+            left: 5px;
+            top: 1px;
+            content: "\02143";
+            font-size: 14px;
+            transform: rotate(40deg);
+        }
+
+        .form-radio:hover,
+        .form-checkbox:hover {
+            background-color: var(--color-mid-gray);
+            outline: none;
+        }
+
+        .form-radio:checked,
+        .form-checkbox:checked {
+            background-color: var(--color-p);
+            border-color: var(--color-dark);
+            color: var(--color-white);
+            z-index: 2;
+        }
+
+        .form-radio {
+            border: 2px solid #bdbcc0;
+            top: 6px;
+        }
+
+        .form-checkbox {
+            border-radius: 4px;
+        }
+
+        .error-text {
+            color: var(--color-red);
+        }
+
+        .remember-forgot {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .remember {
+            display: flex;
+            align-items: center;
+        }
+
+        .remember label {
+            display: inline-block;
+            line-height: 1;
+        }
+
+        .forgot {
+            line-height: 1;
+            text-align: right;
+        }
+
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--color-p);
+            color: var(--color-white);
+            border: 0;
+            padding: 0.75rem;
+            width: 100%;
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 0.75rem;
+            cursor: pointer;
+            transition: all 0.3s ease-out;
+        }
+
+        button:hover {
+            background-color: var(--color-dark);
+        }
+
+        .right {
+            background: radial-gradient(82.76% 57.9% at 72.85% 4.95%, var(--color-p) 0%, var(--color-dark) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--color-white);
+            padding: 3rem;
+        }
+
+        .right svg {
+            margin: auto;
+        }
+
+        .right h2 {
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+
+        .right p {
+            max-width: 50vw;
+            margin: 0 auto;
+            line-height: 1rem;
+        }
+
+        .dark-mode-btn {
+            position: fixed;
+            left: 1rem;
+            bottom: 1rem;
+            z-index: 10;
+            background-color: var(--color-white);
+            padding: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid var(--color-mid-gray);
+            border-radius: 50%;
+            transition: all 0.3s ease-out;
+        }
+
+        .dark-mode-btn svg {
+            filter: invert(67%) sepia(7%) saturate(757%) hue-rotate(182deg) brightness(95%) contrast(88%);
+            width: 16px;
+            height: 16px;
+        }
+
+        .dark-mode-btn.active {
+            background-color: var(--color-p);
+            border-color: var(--color-p);
+        }
+
+        .dark-mode-btn.active svg {
+            filter: invert(91%) sepia(31%) saturate(1482%) hue-rotate(328deg) brightness(102%) contrast(101%);
+        }
+
+        .dark-mode-on .left {
+            background-color: var(--color-dark);
+            color: var(--color-white);
+        }
+
+        .dark-mode-on input {
+            background-color: transparent;
+            border: 1px solid var(--color-mid-gray);
+            color: white;
+        }
+
+        .dark-mode-on .seperator span {
+            background-color: var(--color-dark);
+        }
+
+        .dark-mode-on button:hover {
+            background-color: var(--color-white);
+            color: var(--color-dark);
+        }
+
+        @media screen and (max-width: 48rem) {
+            .wrapper {
+                grid-template-columns: 1fr;
+            }
+
+            .right {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="left">
+            <div class="sign-up-form">
+                <h1>Sign up your account</h1>
+                <div class="social-buttons">
+                    <a href="javascript:;" title="Sign up via Google">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M21.8055 10.0415H21V10H12V14H17.6515C16.827 16.3285 14.6115 18 12 18C8.6865 18 6 15.3135 6 12C6 8.6865 8.6865 6 12 6C13.5295 6 14.921 6.577 15.9805 7.5195L18.809 4.691C17.023 3.0265 14.634 2 12 2C6.4775 2 2 6.4775 2 12C2 17.5225 6.4775 22 12 22C17.5225 22 22 17.5225 22 12C22 11.3295 21.931 10.675 21.8055 10.0415Z"
+                                fill="#FFC107" />
+                            <path
+                                d="M3.15295 7.3455L6.43845 9.755C7.32745 7.554 9.48045 6 12 6C13.5295 6 14.921 6.577 15.9805 7.5195L18.809 4.691C17.023 3.0265 14.634 2 12 2C8.15895 2 4.82795 4.1685 3.15295 7.3455Z"
+                                fill="#FF3D00" />
+                            <path
+                                d="M12 22C14.583 22 16.93 21.0115 18.7045 19.404L15.6095 16.785C14.5718 17.5742 13.3038 18.001 12 18C9.39904 18 7.19053 16.3415 6.35853 14.027L3.09753 16.5395C4.75253 19.778 8.11354 22 12 22Z"
+                                fill="#4CAF50" />
+                            <path
+                                d="M21.8055 10.0415H21V10H12V14H17.6515C17.2571 15.1082 16.5467 16.0766 15.608 16.7855L15.6095 16.7845L18.7045 19.4035C18.4855 19.6025 22 17 22 12C22 11.3295 21.931 10.675 21.8055 10.0415Z"
+                                fill="#1976D2" />
+                        </svg>
+                    </a>
+
+                    <a href="javascript:;" title="Sign up via Apple">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M17.5172 12.5555C17.5078 10.957 18.232 9.75234 19.6945 8.86406C18.8766 7.69219 17.6391 7.04766 16.0078 6.92344C14.4633 6.80156 12.7734 7.82344 12.1547 7.82344C11.5008 7.82344 10.0055 6.96563 8.82891 6.96563C6.40078 7.00313 3.82031 8.90156 3.82031 12.7641C3.82031 13.9055 4.02891 15.0844 4.44609 16.2984C5.00391 17.8969 7.01484 21.8133 9.1125 21.75C10.2094 21.7242 10.9852 20.9719 12.4125 20.9719C13.7977 20.9719 14.5148 21.75 15.7383 21.75C17.8547 21.7195 19.6734 18.1594 20.2031 16.5563C17.3648 15.218 17.5172 12.6375 17.5172 12.5555V12.5555ZM15.0539 5.40703C16.2422 3.99609 16.1344 2.71172 16.0992 2.25C15.0492 2.31094 13.8352 2.96484 13.1437 3.76875C12.382 4.63125 11.9344 5.69766 12.0305 6.9C13.1648 6.98672 14.2008 6.40313 15.0539 5.40703V5.40703Z"
+                                fill="#111111" />
+                        </svg>
+                    </a>
+                    <a href="javascript:;" title="Sign up via Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M13.397 20.997V12.801H16.162L16.573 9.59199H13.397V7.54799C13.397 6.62199 13.655 5.98799 14.984 5.98799H16.668V3.12699C15.8487 3.03918 15.0251 2.99678 14.201 2.99999C11.757 2.99999 10.079 4.49199 10.079 7.23099V9.58599H7.33203V12.795H10.085V20.997H13.397Z"
+                                fill="#3C5895" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="seperator">
+                    <span>or do it via E-mail</span>
+                </div>
+
+                <form action="">
+                    <div class="form-group">
+                        <label for="">Name Surname</label>
+                        <input type="input" placeholder="Name Surname">
+                    </div>
+                    <div class="form-group">
+                        <label for="">E-mail</label>
+                        <input type="email" placeholder="@mail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Password</label>
+                        <input type="password" placeholder="password">
+
+                    </div>
+                    <div class="form-group">
+                        <button>SIGN UP</button>
+                    </div>
+                    <div class="create-aacount">
+                        Already registered? <a href="javascript:;" class="text-underline sign-in-form-btn"> Sign In</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right-inner">
+                <img src="signup.png" alt="Signup Page">
+                <h2>Welcome Back, Again</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque modi veniam fuga quia adipisci, ad
+                    dolor, autem necessitatibus qui enim error ducimus fugiat explicabo harum rerum, natus iure sed
+                    blanditiis.
+            </div>
+        </div>
+    </div>
+
+    <a href="javascript:;" class="dark-mode-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+            <path
+                d="M21.55 1C23.15 3.4 24.1 6.3 24.1 9.4C24.15 17.75 17.3 24.5 8.85 24.5C6 24.5 3.3 23.7 1 22.35C3.6 27.5 8.95 31 15.15 31C23.9 31 31 24 31 15.35C31 8.95 27.1 3.45 21.55 1Z"
+                fill="black" />
+        </svg>
+    </a>
+
+    <script>
+        $(".dark-mode-btn").click(function () {
+            $(this).toggleClass("active");
+            $("body").toggleClass("dark-mode-on");
+        });
+
+    </script>
+</body>
+
+</html>
