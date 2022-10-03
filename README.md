@@ -33,6 +33,9 @@ You can contribute by adding new Web Projects, improving current projects or Doc
 - [x] Add your file in proper folder(lowercase) with README.md in it. Add requirements.txt if needed.
 - [x] Please use flake8 linting in your code (See below to check flake8 linting)
 
+> IMPORTANT **Note**
+>
+> **Pull Requests having no issue associated with them will not be accepted. Firstly get an issue assigned, whether it's already opened or raised by you, and then create a Pull Request.**
 
 ## How to contribute to this project
 Here are 3 quick and painless ways to contribute to this project:
