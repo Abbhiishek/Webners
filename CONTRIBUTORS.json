@@ -34,8 +34,8 @@
         "bio": "Developer",
         "github": "https://github.com/ChandanP007",
         "interests": [
-            "Web Development"
-            "Android"
+            "Web Development",
+            "Android",
             "Machine Learning"
         ],
         "Projects": [
@@ -50,7 +50,7 @@
         "Skills": [
             "HTML",
             "CSS",
-            "JS"
+            "JS",
             "REACT"
         ]
     },
