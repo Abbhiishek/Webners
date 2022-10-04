@@ -38,10 +38,8 @@ You can contribute by adding new Web Projects, improving current projects or Doc
 > **Pull Requests having no issue associated with them will not be accepted. Firstly get an issue assigned, whether it's already opened or raised by you, and then create a Pull Request.**
 
 ## How to contribute to this project
-Here are 3 quick and painless ways to contribute to this project:
 
 * Add your name to the `CONTRIBUTORS.json` file
-* Add a profile page to the `Profiles` directory
 * Add a link to this project on your social media
 
 Choose one or all 3, make a pull request for your work and wait for it to be merged!
