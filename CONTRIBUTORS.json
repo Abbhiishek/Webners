@@ -102,5 +102,32 @@
       "CSS",
       "JS",
     ]
-  }
+  },
+  {
+    "id": 5,
+    "type": "github",
+    "username": "Rudresh-pandey",
+    "place": "Dhanbad , Jharkhand",
+    "bio": "Developer",
+    "github": "https://github.com/Rudresh-pandey",
+    "interests": [
+        "MERN Development",
+        "Python Development"
+    ],
+    "Projects": [
+        {
+            "id": 1,
+            "name": "Put_Your_Pass",
+            "description": "Static application to store all your passwords",
+            "link": "https://github.com/Abbhiishek/Webners/Contributions/Put_Your_Pass"
+        }
+    ],
+    "Academics": "BCA",
+    "Skills": [
+        "JS",
+        "Express.js",
+        "Python",
+        "REACT"
+    ]
+}
 ]
