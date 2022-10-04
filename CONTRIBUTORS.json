@@ -9,6 +9,11 @@
         "github": "https://github.com/Abbhiishek"
     },
     {
-
+        "id": 2,
+        "type": "github",
+        "username": "abhishak3",
+        "place": "Delhi",
+        "bio": "Developer",
+        "github": "https://github.com/abhishak3"
     }
 ]
