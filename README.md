@@ -1,5 +1,7 @@
 <h1 align=center>Webners</h1>
 
+![Webners](https://socialify.git.ci/Abbhiishek/Webners/image?description=1&descriptionEditable=Frontend%20Projects%20and%20Resources%20&font=Raleway&forks=1&issues=1&logo=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1567906020831150081%2FoJ7mKaaj_400x400.jpg&name=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
+
 **We are accepting all Kind of Web Projects and Resources to upskill our  Developer Skills**
 
 
@@ -31,12 +33,13 @@ You can contribute by adding new Web Projects, improving current projects or Doc
 - [x] Add your file in proper folder(lowercase) with README.md in it. Add requirements.txt if needed.
 - [x] Please use flake8 linting in your code (See below to check flake8 linting)
 
+> IMPORTANT **Note**
+>
+> **Pull Requests having no issue associated with them will not be accepted. Firstly get an issue assigned, whether it's already opened or raised by you, and then create a Pull Request.**
 
 ## How to contribute to this project
-Here are 3 quick and painless ways to contribute to this project:
 
 * Add your name to the `CONTRIBUTORS.json` file
-* Add a profile page to the `Profiles` directory
 * Add a link to this project on your social media
 
 Choose one or all 3, make a pull request for your work and wait for it to be merged!

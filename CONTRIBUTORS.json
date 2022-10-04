@@ -1,13 +1,4 @@
 [
-
-    {
-        "id": 1,
-        "type": "github",
-        "username": "Abbhiishek",
-        "place": "Kolkata , WestBengal",
-        "bio": "Developer",
-        "github": "https://github.com/Abbhiishek"
-    },
     {
         "id": 2,
         "type": "github",
@@ -16,4 +7,162 @@
         "bio": "Developer",
         "github": "https://github.com/abhishak3"
     }
+]
+  {
+    "id": 1,
+    "type": "github",
+    "username": "srinjoy-26",
+    "place": "Kolkata , WestBengal",
+    "bio": "Developer",
+    "github": "https://github.com/srinjoy-26",
+    "interests": [
+      "Web Development",
+      "App Development",
+      "blockchain"
+    ],
+    "Projects": [
+      {
+        "id": 1,
+        "name": "Webners",
+        "description": "A website for developers",
+        "link": "https://github.com/Abbhiishek/Webners"
+      }
+    ],
+    "Academics": "B.Tech in Information Technology",
+    "Skills": [
+      "HTML",
+      "CSS",
+      "JS"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "github",
+    "username": "ChandanP007",
+    "place": "Kolkata , WestBengal",
+    "bio": "Developer",
+    "github": "https://github.com/ChandanP007",
+    "interests": [
+      "Web Development",
+      "Android",
+      "Machine Learning"
+    ],
+    "Projects": [
+      {
+        "id": 1,
+        "name": "Webners",
+        "description": "A simple todo application built using javascript",
+        "link": "https://github.com/Abbhiishek/Webners/Contributions/todocp"
+      }
+    ],
+    "Academics": "BTECH CSE",
+    "Skills": [
+      "HTML",
+      "CSS",
+      "JS",
+      "REACT"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "github",
+    "username": "Amarjit Khan",
+    "place": "Durgapur , WestBengal",
+    "bio": "Developer",
+    "github": "https://github.com/Amarjit-Khan",
+    "interests": [
+      "Web Development",
+      "Machine Learning"
+    ],
+    "Projects": [
+      {
+        "id": 1,
+        "name": "Contributors-website",
+        "description": "A website to list names of all contributors",
+        "link": "https://amarjit-khan.github.io/Contributors-website/"
+      }
+    ],
+    "Academics": "B.Tech in Computer Science",
+    "Skills": [
+      "Java"
+    ]
+  },
+  {
+    "id": 4,
+    "type": "github",
+    "place": "Kolkata , WestBengal",
+    "bio": "Developer",
+    "github": "https://github.com/SayanTan772",
+    "interests": [
+      "Web Development",
+      "Content Writing"
+    ],
+    "Projects": [
+      {
+        "id": 1,
+        "name": "Product Preview Card Component",
+        "description": "A project to learn real-time implementation of flexbox in CSS",
+        "link": "https://sayantan772.github.io/product-preview-card-component/"
+      }
+    ],
+    "Academics": "B.Tech in Computer science and Engineering",
+    "Skills": [
+      "HTML",
+      "CSS",
+      "JS",
+    ]
+  },
+  {
+    "id": 5,
+    "type": "github",
+    "username": "Rudresh-pandey",
+    "place": "Dhanbad , Jharkhand",
+    "bio": "Developer",
+    "github": "https://github.com/Rudresh-pandey",
+    "interests": [
+        "MERN Development",
+        "Python Development"
+    ],
+    "Projects": [
+        {
+            "id": 1,
+            "name": "Put_Your_Pass",
+            "description": "Static application to store all your passwords",
+            "link": "https://github.com/Abbhiishek/Webners/Contributions/Put_Your_Pass"
+        }
+    ],
+    "Academics": "BCA",
+    "Skills": [
+        "JS",
+        "Express.js",
+        "Python",
+        "REACT"
+    ]
+},
+{
+    "id": 2,
+    "type": "github",
+    "username": "abhishak3",
+    "place": "Delhi",
+    "bio": "Developer"
+    "github": "https://github.com/abhishak3",
+    "interests": [
+      "Machine Learning",
+      "Python"
+    ],
+    "Projects": [
+        {
+            "id": 1,
+            "name": "Shaker: The Online IDE",
+            "description": "An online code editor which supports all IDE like features with multiple language support."
+            "link": "https://shaker-online-compiler.herokuapp.com/"
+    ],
+    "Academics": "B.Tech In CSE"
+    "Skills": [
+        "Python",
+        "ReactJS",
+        "Django/Flask",
+        "Tensorflow"
+    ]
+}
 ]
