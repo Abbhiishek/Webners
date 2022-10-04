@@ -18,4 +18,4 @@ jobs:
           body: |
             Welcome to Webners! This repository is all about contributing your new Web Projects or improving the current ones, Documentation or any resources which can help developers upskill themselves.
             Thank you for showing interest in this repository. We'll get back to you soon!
-            Issue or PR number : ${issue-number}
+            Issue or PR number : ${{issue-number}}
