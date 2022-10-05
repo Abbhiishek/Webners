@@ -1,0 +1,25 @@
+name: Greetings!
+on:
+  pull_request_target:
+    types: [opened]
+jobs:
+  add-comment:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - name: PR Assistance
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          issue-number: ${{ github.event.issue.number }}${{ github.event.pull_request.number }}
+          body: |
+            Thanks For opening this pull Request. One of our maintaniner would look into your commits.✨
+            By that time make sure you are following all the Contribution Guidelines mentioned in the Repository.
+            
+            Here is a SIMPLE Todo List that you can refer to 
+            
+            - Update your Details on `Contributors.json` File.
+            - Add your Whole Project Folder in Contribution Folder.
+            - Have a clean branch and commits.
+            - If you see any merge conflict, repull the main branch and make necessary changes.
+            - Happy Contribution ☺️
