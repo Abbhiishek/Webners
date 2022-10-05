@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TODO-CP</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="site-favicon.png" type="image/x-icon">
     
 </head>
 <body>
@@ -16,10 +17,14 @@
     <input type="text" id="taskname" placeholder="Enter the task">   </input>
   <button type="submit" id="addtask">ADD</button>
   <button type="submit" id="cleartask">CLEAR</button>
-  <h4>My tasks: </h4><p>Click on any task to mark it as completed<p>
+  <input type="checkbox" name="isSave" id="isSave">
+  <label for="isSave">Save All</label>
+  <h4>My tasks: </h4><p id="msg">Click on any task to mark it as completed<p>
   <ul id="tasklist">
   </ul>
   </div>
+
+  
 
   <script src="script.js"></script>
 </body>

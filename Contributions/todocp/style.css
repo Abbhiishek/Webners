@@ -4,16 +4,16 @@ body{
   .box{
     width: 500px;
     border: 1px solid lightgrey;
-    border-radius: 30px 0px;
+    border-radius: 30px 30px 10px 10px;
     box-shadow: 0px 1px 20px -10px;
     margin: auto;
     margin-top: 60px;
-    background: black;
+    background: rgb(50, 50, 50);
   }
   p{
-    color: red;
+    color: lime;
     font-size: 12px;
-    display: block;
+    display: none;
     text-align: center;
   }
   h3{
@@ -41,15 +41,17 @@ body{
   #addtask{
     padding: 10px;
     cursor: pointer;
-    background: black;
+    background: green;
     color: white;
-    
+    border: none;
+    margin-left: 5px;
   }
   #addtask:hover{transition: 0.5s;color: black;background: white;}
   #cleartask{
     padding: 10px;
     cursor: pointer;
-    background: green;
+    background: rgb(230, 17, 6);
+    border: none;
     color: white;
   }
   #cleartask:hover{transition: 0.4s;color: white;background: darkred;}
@@ -67,6 +69,24 @@ body{
     border-radius: 5px;
     cursor: pointer;
   }
+  li:hover{
+    transition: 0.4s;
+    border: 1px solid black;
+    background: gold;
+    color: black;
+  }
+  input[type=checkbox]{
+    display: block;
+    margin: 1.5em;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid white;
+    background-color: black;
+    border-radius: 0.15em;
+    cursor: pointer;
+    color: white;
+
+  }
   /* #tasklist button{
     background: none;
     float: right;
@@ -80,7 +100,7 @@ body{
     transition: 0.3s;
   }
   ul li.checked {
-    background: lime;
+    background: gold;
     color: black;
     border: none;
     text-decoration: line-through;
