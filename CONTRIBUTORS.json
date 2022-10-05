@@ -100,7 +100,31 @@
     "Skills": [
       "HTML",
       "CSS",
-      "JS",
+      "JS"
+    ]
+  },
+  {
+    "id": 5,
+    "type": "github",
+    "username": "ilhamansari",
+    "place": "Kolkata , WestBengal",
+    "bio": "Developer",
+    "github": "https://github.com/ilhamansari",
+    "interests": [
+      "Web Development"
+    ],
+    "Projects": [
+      {
+        "id": 5,
+        "name": "Pizza Corner",
+        "description": "An online website of pizza for pizza lovers.",
+        "link": ""
+      }
+    ],
+    "Academics": "B.Tech in Information Technology",
+    "Skills": [
+      "HTML",
+      "CSS"
     ]
   }
 ]
