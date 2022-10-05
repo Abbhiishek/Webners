@@ -1,0 +1,20 @@
+name: Greetings!
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+jobs:
+  add-comment:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - name: Add Comment
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          issue-number: ${{ github.event.issue.number }}${{ github.event.pull_request.number }}
+          body: |
+            Welcome to Webners! This repository is all about contributing your new Web Projects or improving the current ones, Documentation or any resources which can help developers upskill themselves.
+            Thank you for showing interest in this repository. We'll get back to you soon!
