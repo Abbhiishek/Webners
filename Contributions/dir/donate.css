@@ -1,0 +1,114 @@
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    position: relative;
+    background-image: url('../images/donateee.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 120%; 
+    overflow-x: hidden;
+}
+
+.headText {
+    margin-left: 1rem;
+    margin-top: 0rem;
+    color: white;
+    position: absolute;
+    /*top: 50%;*/
+    left: 20px;
+    font-weight: 100;
+    color: black;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    list-style: none;
+    height: 100%;
+    width: 25%;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.navlinks li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.navlinks li:hover {
+   text-decoration-line: underline ;
+   background-color: #BDA576;
+   line-height: 15px;
+}
+
+.links {
+    text-decoration: none ;
+    font-size: 1rem;
+    color: black;
+}*/
+/*
+.donation-page {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}*/
+
+form {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    /* text-align: center; */
+    position: absolute;
+  left: 800px;
+  top: 400px;
+    font-size: 2rem;
+    transform: translate(10px, -50%);
+    transition: 1000ms linear
+
+}
+
+
+h2 {
+    /* text-align: right; */
+    /* float: right; */
+    position: absolute;
+  left: 100px;
+  top: 130px;
+    color: rgb(253, 253, 253) ;
+    font-size: 2rem;
+}
+
+.form {
+    opacity: 1;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2rem 5rem 0 rgba(252, 262, 270, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    /*transform: translate(10px, -2%);*/
+    transition: 1000ms ease-in
+}
+
+.form:hover {
+  background-color: rgba(25, 25, 25, 0.4);
+}
