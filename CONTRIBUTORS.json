@@ -1,13 +1,4 @@
 [
-    {
-        "id": 2,
-        "type": "github",
-        "username": "abhishak3",
-        "place": "Delhi",
-        "bio": "Developer",
-        "github": "https://github.com/abhishak3"
-    }
-]
   {
     "id": 1,
     "type": "github",
@@ -109,7 +100,7 @@
     "Skills": [
       "HTML",
       "CSS",
-      "JS",
+      "JS"
     ]
   },
   {
@@ -120,50 +111,50 @@
     "bio": "Developer",
     "github": "https://github.com/Rudresh-pandey",
     "interests": [
-        "MERN Development",
-        "Python Development"
+      "MERN Development",
+      "Python Development"
     ],
     "Projects": [
-        {
-            "id": 1,
-            "name": "Put_Your_Pass",
-            "description": "Static application to store all your passwords",
-            "link": "https://github.com/Abbhiishek/Webners/Contributions/Put_Your_Pass"
-        }
+      {
+        "id": 1,
+        "name": "Put_Your_Pass",
+        "description": "Static application to store all your passwords",
+        "link": "https://github.com/Abbhiishek/Webners/Contributions/Put_Your_Pass"
+      }
     ],
     "Academics": "BCA",
     "Skills": [
-        "JS",
-        "Express.js",
-        "Python",
-        "REACT"
+      "JS",
+      "Express.js",
+      "Python",
+      "REACT"
     ]
-},
-{
+  },
+  {
     "id": 2,
     "type": "github",
     "username": "abhishak3",
     "place": "Delhi",
-    "bio": "Developer"
+    "bio": "Developer",
     "github": "https://github.com/abhishak3",
     "interests": [
       "Machine Learning",
       "Python"
     ],
     "Projects": [
-        {
-            "id": 1,
-            "name": "Shaker: The Online IDE",
-            "description": "An online code editor which supports all IDE like features with multiple language support."
-            "link": "https://shaker-online-compiler.herokuapp.com/"
-        }
+      {
+        "id": 1,
+        "name": "Shaker: The Online IDE",
+        "description": "An online code editor which supports all IDE like features with multiple language support.",
+        "link": "https://shaker-online-compiler.herokuapp.com/"
+      }
     ],
-    "Academics": "B.Tech In CSE"
+    "Academics": "B.Tech In CSE",
     "Skills": [
-        "Python",
-        "ReactJS",
-        "Django/Flask",
-        "Tensorflow"
+      "Python",
+      "ReactJS",
+      "Django/Flask",
+      "Tensorflow"
     ]
-}
+  }
 ]
