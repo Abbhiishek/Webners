@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    position: relative;
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: 50% 40%;
+}
+
+
+nav {
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(20, 33, 61, 0.0);
+    position: relative;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+}
+
+.headText {
+    margin-left: 4rem;
+    margin-top: 1rem;
+    color: white;
+    position: absolute;
+    left: 20px;
+    transform: translate(10px, -50%);
+    transition: 1000ms linear;
+    font-weight: 100;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    list-style: none;
+    height: 100%;
+    width: 25%;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.navlinks li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navlinks li:hover {
+   text-decoration-line: underline ;
+}
+
+.links {
+    text-decoration: none ;
+    color: white;
+    font-size: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.first-heading {
+    font-size: 3em;
+}
+
+.first-subtext {
+    margin: 1em;
+    font-weight: 400;
+}
+
+#donate {
+    font-size: 16px;
+    padding: 16px;
+    margin: 12px;
+    margin-top: 15px;
+    background-color: #36bcdd;
+    border: none;
+    text-decoration: none ;
+    font-weight: bold;
+    color: black;
+    transition: 300ms linear;
+}
+
+#donate:hover {
+    transform: translate(0, -5px, 0);
+    background-color: rgba(200, 100, 17);
+    transition: 300ms ease-out;
+}
