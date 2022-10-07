@@ -183,5 +183,30 @@
       "DBMS",
       "Web development"
     ]
+  },
+  {
+    "id": 8,
+    "type": "github",
+    "username": "Asttttha",
+    "place": "Kolkata , WestBengal",
+    "bio": "Developer, Open source contributor",
+    "github": "https://github.com/Asttttha",
+    "interests": [
+      "Web Development",
+      "Python"
+    ],
+    "Projects": [
+      {
+        "id": 1,
+        "name": "Paintry Website",
+        "description": "Website for artists to upload their arts and design and interact with other artists.",
+        "link": "https://github.com/Abbhiishek/Webners/issues/27"
+      }
+    ],
+    "Academics": "B.Tech in Information Technology",
+    "Skills": [
+      "Web development",
+      "Python"
+    ]
   }
 ]
