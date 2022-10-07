@@ -129,5 +129,30 @@
         "Python",
         "REACT"
     ]
-}
+    },
+    {
+      "id": 6,
+      "type": "github",
+      "username": "Asttttha",
+      "place": "Kolkata , WestBengal",
+      "bio": "Developer",
+      "github": "https://github.com/Asttttha",
+      "interests": [
+          "Web Development"
+      ],
+      "Projects": [
+          {
+              "id": 1,
+              "name": "Paintry Website",
+              "description": "Website to upload your arts and designs and interact with other artists",
+              "link": "https://github.com/Abbhiishek/Webners/issues/27"
+          }
+      ],
+      "Academics": "B.Tech in Information Technology",
+      "Skills": [
+          "HTML",
+          "CSS",
+          "Python"
+      ]
+    }
 ]
