@@ -1,5 +1,6 @@
 body{
     font-family: poppins;
+    
   }
   .box{
     width: 550px;
@@ -12,8 +13,8 @@ body{
     
   }
   .inner{
-    border: 1px solid lime;
-    border-radius: 30px 30px 10px 10px;
+    /* border: 1px solid lime;
+    border-radius: 30px 30px 10px 10px; */
     padding: 5px;
   }
   p{
@@ -58,6 +59,7 @@ body{
     background: none;
     border: 1px solid green;
     color: cyan;
+    
   }
   #taskname:focus{
     border: 1px solid lime;
@@ -89,6 +91,9 @@ body{
     list-style: none;
     margin: 1px;
     padding: 15px;
+    max-height: 300px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
   }
   li{
     margin: 2px;
@@ -103,18 +108,6 @@ body{
     border: 1px solid black;
     background: gold;
     color: black;
-  }
-  input[type=checkbox]{
-    display: block;
-    margin: 1.5em;
-    width: 1.15em;
-    height: 1.15em;
-    border: 0.15em solid white;
-    background-color: black;
-    border-radius: 0.15em;
-    cursor: pointer;
-    color: white;
-
   }
   /* #tasklist button{
     background: none;
@@ -132,18 +125,30 @@ body{
     background: gold;
     color: black;
     border: none;
+    display: none;
     text-decoration: line-through;
   }
   
   #save{
     background: none;
-    border: 1px solid green;
-    color: green;
+    border: 1px solid goldenrod;
+    color: goldenrod;
     transition: 0.4s;
+    display: inline;
     padding: 8px;
     width: 100px; margin-left: 13px; display: block; margin-top: 10px;
   }
-  #save:hover{border: 1px solid lime; cursor: pointer; color: lime}
+  #save:hover{border: 1px solid yellow; cursor: pointer; color: yellow}
+  #back{
+    background: none;
+    color: rgb(126, 126, 248);
+    border: 1px solid rgb(126, 126, 248);
+    padding: 8px;
+    width: 120px;
+    margin-left: 7px;
+    transition: 0.4s;
+  }
+  #back:hover{border: 1px solid skyblue; cursor: pointer; color: skyblue}
 
   #del{
     padding: 8px;
@@ -155,10 +160,22 @@ body{
     color: red;
   }
   #del:hover{border: 1px solid orange; color: orange; }
-  #localtasks{border-top: 1px double orange; margin-top: 10px;
+  #localtasks{border-top: 1px double orange; margin-top: 10px; max-height: 250px;
+    overflow-y: scroll;
   }
+  ::-webkit-scrollbar{width: 10px; background: none;}
+  ::-webkit-scrollbar-track {
+    background: lime;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: orange;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: cyan;
+  }
+
   #localtasks li{
-    list-style: square;
+    list-style: number;
     border: none;
     color: white;
     margin: 1px;
@@ -168,4 +185,6 @@ body{
   #localtasks li:hover{background: none; font-weight: 800;}
   .modal-header{background: black; color: white;}
   .modal-body{background: black;}
-  .modal-footer{display: none;}
+  .modal-footer{background: red;}
+  .modal-footer button:hover{transition: 0.4s; background: none; border: 1px solid red; color: red;}
+  .modal-footer button{background: none; border: 1px solid black; color: black;}
