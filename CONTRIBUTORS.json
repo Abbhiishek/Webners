@@ -208,5 +208,25 @@
       "Web development",
       "Python"
     ]
+  },
+  {
+    "id": 9,
+    "type": "github",
+    "username": "belugajis",
+    "place": "Kolkata , WestBengal",
+    "bio": "Developer, Open source contributor",
+    "github": "https://github.com/beluhajis",
+    "interests": [
+      "Web Development",
+      "Python"
+    ],
+    "Projects": [
+      
+    ],
+    "Academics": "BTech, Information Technology",
+    "Skills": [
+      "Web development",
+      "Python"
+    ]
   }
 ]
