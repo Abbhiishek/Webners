@@ -156,5 +156,77 @@
       "Django/Flask",
       "Tensorflow"
     ]
+  },
+  {
+    "id": 7,
+    "type": "github",
+    "username": "12345supu",
+    "place": "Gaya , Bihar",
+    "bio": "Developer",
+    "github": "https://github.com/12345supu",
+    "interests": [
+      "Web Development",
+      "C++"
+    ],
+    "Projects": [
+      {
+        "id": 1,
+        "name": "Donation_Page",
+        "description": "A donation page for collecting the fund",
+        "link": "https://github.com/12345supu/Donation-page"
+      }
+    ],
+    "Academics": "B.Tech(CSE)",
+    "Skills": [
+      "C++",
+      "DSA",
+      "DBMS",
+      "Web development"
+    ]
+  },
+  {
+    "id": 8,
+    "type": "github",
+    "username": "Asttttha",
+    "place": "Kolkata , WestBengal",
+    "bio": "Developer, Open source contributor",
+    "github": "https://github.com/Asttttha",
+    "interests": [
+      "Web Development",
+      "Python"
+    ],
+    "Projects": [
+      {
+        "id": 1,
+        "name": "Paintry Website",
+        "description": "Website for artists to upload their arts and design and interact with other artists.",
+        "link": "https://github.com/Abbhiishek/Webners/issues/27"
+      }
+    ],
+    "Academics": "BTech, Information Technology",
+    "Skills": [
+      "Web development",
+      "Python"
+    ]
+  },
+  {
+    "id": 9,
+    "type": "github",
+    "username": "belugajis",
+    "place": "Kolkata , WestBengal",
+    "bio": "Developer, Open source contributor",
+    "github": "https://github.com/beluhajis",
+    "interests": [
+      "Web Development",
+      "Python"
+    ],
+    "Projects": [
+      
+    ],
+    "Academics": "BTech, Information Technology",
+    "Skills": [
+      "Web development",
+      "Python"
+    ]
   }
 ]
