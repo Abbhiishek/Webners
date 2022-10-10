@@ -2,13 +2,19 @@ body{
     font-family: poppins;
   }
   .box{
-    width: 500px;
+    width: 550px;
     border: 1px solid lightgrey;
     border-radius: 30px 30px 10px 10px;
     box-shadow: 0px 1px 20px -10px;
     margin: auto;
     margin-top: 60px;
     background: rgb(50, 50, 50);
+    
+  }
+  .inner{
+    border: 1px solid lime;
+    border-radius: 30px 30px 10px 10px;
+    padding: 5px;
   }
   p{
     color: lime;
@@ -16,45 +22,68 @@ body{
     display: none;
     text-align: center;
   }
-  h3{
+  .inner h3{
     text-align: center;
-    font-size: 25px;
-    font-family: verdana;
-    color: cyan;
+    font-size: 2.5rem;
+    font-family: poppins;
+    background: linear-gradient(90deg, red,lime,cyan,yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclr 10s linear infinite;
+    /* opacity: ; */
+    background-size: 400%;
+    margin-top: 20px;
   }
-  h4{
+  @keyframes textclr {
+    0%{
+      background-position: 0%;
+    }
+    100%{
+      background-position: 400%;
+    }
+  }
+.inner h4{
     color: white;
     padding: 5px;
     margin: 5px;
     display: block;
+    margin-top: 30px;
   }
   #taskname{
     margin-left: 13px;
     margin-top: 10px;
-    padding: 8.5px;
+    padding: 8px;
     width: 325px;
     outline: none;
     background: none;
-    border: 1px solid white;
+    border: 1px solid green;
     color: cyan;
   }
-  #addtask{
-    padding: 10px;
+  #taskname:focus{
+    border: 1px solid lime;
+    
+  }
+  
+  .inner #addtask{
+    padding: 8px;
     cursor: pointer;
-    background: green;
-    color: white;
-    border: none;
+    background: none;
+    color: green;
+    border: 1px solid green;
     margin-left: 5px;
+    width: 80px;
   }
-  #addtask:hover{transition: 0.5s;color: black;background: white;}
+  #addtask:hover{transition: 0.4s;color: lime;border: 1px solid lime;}
   #cleartask{
-    padding: 10px;
+    padding: 8px;
     cursor: pointer;
-    background: rgb(230, 17, 6);
-    border: none;
-    color: white;
+    background: none;
+    border: 1px solid red;
+    transition: 0.4s;
+    width: 80px;
+    color: red;
   }
-  #cleartask:hover{transition: 0.4s;color: white;background: darkred;}
+  #cleartask:hover{border: 1px solid orange; color: orange}
   
   #tasklist{
     list-style: none;
@@ -106,4 +135,37 @@ body{
     text-decoration: line-through;
   }
   
-  
+  #save{
+    background: none;
+    border: 1px solid green;
+    color: green;
+    transition: 0.4s;
+    padding: 8px;
+    width: 100px; margin-left: 13px; display: block; margin-top: 10px;
+  }
+  #save:hover{border: 1px solid lime; cursor: pointer; color: lime}
+
+  #del{
+    padding: 8px;
+    cursor: pointer;
+    background: none;
+    border: 1px solid red;
+    transition: 0.4s;
+    width: 120px;
+    color: red;
+  }
+  #del:hover{border: 1px solid orange; color: orange; }
+  #localtasks{border-top: 1px double orange; margin-top: 10px;
+  }
+  #localtasks li{
+    list-style: square;
+    border: none;
+    color: white;
+    margin: 1px;
+    /* border-bottom: 1px double red; */
+    border-radius: 0px;
+  }
+  #localtasks li:hover{background: none; font-weight: 800;}
+  .modal-header{background: black; color: white;}
+  .modal-body{background: black;}
+  .modal-footer{display: none;}
