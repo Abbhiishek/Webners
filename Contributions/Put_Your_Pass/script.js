@@ -20,7 +20,7 @@ let heading = document.getElementById('heading');
 const colours = ['#ffe3b6', '#ffeb63', '#63ff8b', '#ffcf63', '#6367ff', '#ff63d5', '#fe0729', '#07e9fe', '#43fe07', '#ebfe07'];
 
 let timer1 = null;
-timer1 = setInterval(change, 2000);
+// timer1 = setInterval(change, 2000);
 let c = 0;
 const len = colours.length;
 function change() {
