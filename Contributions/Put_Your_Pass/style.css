@@ -184,7 +184,7 @@ input:focus{
     #heading{
         font-size: 38px;
         /* margin: auto; */
-        margin-left: 25%;
+        margin-left: 12%;
         top: 0;
         position: relative;
         margin-top: 0px;
@@ -195,14 +195,15 @@ input:focus{
         text-align: center;
         justify-content: center;
         left: 0;
-        margin-left: 40%;
+        margin-left: 22%;
         top: 4rem;
         margin-top: 0px;
+        width: 273px;
     }
     #face{
         position: block;
-        top: 10px;
-        left: 9.5rem;
+        top: -45px;
+        left: 15rem;
         
     }
     .leftside{
