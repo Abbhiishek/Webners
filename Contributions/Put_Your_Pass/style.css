@@ -165,3 +165,108 @@ input:focus{
     font-size: 20px;
     
 }
+
+
+
+/* for mobile devices */
+
+@media screen and (max-width:600px){
+    .page{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .user{
+        position: block;
+        top: 0px;
+        left: 0;
+    }
+    #heading{
+        font-size: 38px;
+        /* margin: auto; */
+        margin-left: 12%;
+        top: 0;
+        position: relative;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    #desc{
+        font-size: 13px;
+        text-align: center;
+        justify-content: center;
+        left: 0;
+        margin-left: 22%;
+        top: 4rem;
+        margin-top: 0px;
+        width: 273px;
+    }
+    #face{
+        position: block;
+        top: -45px;
+        left: 15rem;
+        
+    }
+    .leftside{
+        flex: 3;
+    }
+    .rightside{
+        flex: 7;
+    }
+    .inputs{
+        position: fixed;
+        margin-top: 3rem;
+        margin-left: 10%;
+        display: block;
+    }
+    input{
+        width: 110px;
+        padding: auto;
+        height: 20px;
+    }
+    .username{
+        width: 200px;
+        margin-left: 0px;
+        padding: 0px 0px;
+        margin: auto;
+        /* font-size: 18px; */
+       
+    }
+    #username{
+        margin-left: 0px;
+        margin-left: 61px;
+        margin-right: 10px;
+    }
+    .app{
+        padding: 0px 0px;
+        /* margin: auto; */
+    }
+    #appname{
+        margin-left: 0px;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+    .passLen{
+        padding: 0px 0px;
+        /* margin: auto; */
+    }
+    #pass{
+        margin-right: 10px;
+        margin-left: 38px;
+    }
+
+    #create{
+        padding: 0px 10px;
+        font-size: 20px;
+
+    }
+    #pass::placeholder{
+        font-size: 12px;
+    }
+    
+    .header{
+        margin-top: 55%;
+        margin-left: 5%;
+        position: fixed;
+        width: 100vw;
+    }
+}

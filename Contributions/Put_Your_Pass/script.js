@@ -20,9 +20,10 @@ let heading = document.getElementById('heading');
 const colours = ['#ffe3b6', '#ffeb63', '#63ff8b', '#ffcf63', '#6367ff', '#ff63d5', '#fe0729', '#07e9fe', '#43fe07', '#ebfe07'];
 
 let timer1 = null;
-timer1 = setInterval(change, 2000);
+// timer1 = setInterval(change, 2000);
 let c = 0;
 const len = colours.length;
+let data = [];
 function change() {
     if (c > len) {
         // clearInterval(timer1);
@@ -49,30 +50,63 @@ function change() {
         c = c + 1;
     }
 }
+let arrno = 1;
+let checkno = 1;
+
+//rendering data from the localStorage:-
+function render() {
+    while (arrno <= localStorage.length) {
+        let currentinfo = JSON.parse(localStorage.getItem(arrno));
+        let newname = document.createElement('p');
+        newname.innerHTML = currentinfo[0].name;
+        newname.style.fontSize = "17px";
+        newname.style.fontWeight = "500";
+        newname.style.fontFamily = "monospace";
+        newname.style.marginTop = "25px";
+        u.appendChild(newname);
+
+        let newapp = document.createElement('p');
+        newapp.innerHTML = currentinfo[0].application;
+        newapp.style.fontSize = "17px";
+        newapp.style.fontWeight = "500";
+        newapp.style.fontFamily = "monospace";
+        newapp.style.marginTop = "25px";
+
+        a.appendChild(newapp);
+
+        let newpass = document.createElement('p');
+        newpass.innerHTML = currentinfo[0].Userpass;
+        newpass.style.fontSize = "17px";
+        newpass.style.fontWeight = "500";
+        newpass.style.fontFamily = "monospace";
+        newpass.style.marginTop = "25px";
+        p.appendChild(newpass);
+        arrno++;
+    }
+}
+render();
 
 
 
-
+let userData;
 let createBtn = document.getElementById("create");
-createBtn.addEventListener('click', store);
-function store() {
-    let newname = document.createElement('p');
-    newname.innerHTML = username.value;
-    newname.style.fontSize = "17px";
-    newname.style.fontWeight = "500";
-    newname.style.fontFamily = "monospace";
-    newname.style.marginTop = "35px";
-    newname.style.alignItems = "center";
-    u.appendChild(newname);
+createBtn.addEventListener('click', check);
 
-    let newapp = document.createElement('p');
-    newapp.innerHTML = appname.value;
-    newapp.style.fontSize = "17px";
-    newapp.style.fontWeight = "500";
-    newapp.style.fontFamily = "monospace";
-    newapp.style.marginTop = "35px";
-    newapp.style.alignItems = "center";
-    a.appendChild(newapp);
+function check() {
+    if (username.value == null || username.value == "") {
+        alert('username is empty!!!');
+    }
+
+    else if (appname.value == null || appname.value == "") {
+        alert("application name is empty!!!");
+    }
+
+    else {
+        store();
+    }
+}
+
+function store() {
 
     // creating password:- (^~^)
 
@@ -161,13 +195,21 @@ function store() {
 
     //End of the pain :/
 
-    let newpass = document.createElement('p');
-    newpass.innerHTML = password;
-    newpass.style.fontSize = "17px";
-    newpass.style.fontWeight = "500";
-    newpass.style.fontFamily = "monospace";
-    newpass.style.marginTop = "35px";
-    p.appendChild(newpass);
+    //putting into the localStorage :-
+    function putting() {
+
+        data.push({
+            id: arrno,
+            name: username.value,
+            application: appname.value,
+            Userpass: password
+        });
+        userData = localStorage.setItem(arrno, JSON.stringify(data));
+        render();
+        window.location.reload();
+    }
+
+    putting();
 
     username.value = "";
     appname.value = "";
