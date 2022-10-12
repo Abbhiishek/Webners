@@ -258,5 +258,31 @@
         "3D Design"
     ]
 
+},
+{
+  "id": 11,
+  "type": "github",
+  "username": "ilhamansari",
+  "place": "Kolkata , WestBengal",
+  "bio": "Developer",
+  "github": "https://github.com/ilhamansari",
+  "interests": [
+      "Web Development",
+      "Open-Source"
+  ],
+  "Projects": [
+      {
+          "id": 1,
+          "name": "Webners",
+          "description": "A pizza corner website.",
+          "link": "https://github.com/ilhamansari/Webners"
+      }
+  ],
+  "Academics": "B.Tech in Information Technology",
+  "Skills": [
+     "HTML",
+     "CSS",
+     "C"
+  ]
 }
 ]
