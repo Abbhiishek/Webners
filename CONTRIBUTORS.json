@@ -228,5 +228,30 @@
       "Web development",
       "Python"
     ]
-  }
+  },
+{
+  "id": 11,
+  "type": "github",
+  "username": "ilhamansari",
+  "place": "Kolkata , WestBengal",
+  "bio": "Developer, Open source contributor",
+  "github": "https://github.com/ilhamansari",
+  "interests": [
+    "Web Development"
+  ],
+  "Projects": [
+    {
+      "id": 1,
+      "name": "Webners",
+      "description": "A pizza corner",
+      "link": "https://github.com/ilhamansari/Webners"
+    }
+  ],
+  "Academics": "BTech, Information Technology",
+  "Skills": [
+    "HTML",
+    "CSS",
+    "C"
+  ]
+}
 ]
