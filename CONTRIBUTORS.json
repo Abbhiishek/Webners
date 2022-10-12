@@ -228,5 +228,35 @@
       "Web development",
       "Python"
     ]
-  }
+  },
+  {
+    "id": 10,
+    "type": "github",
+    "username": "zaidsidd360",
+    "place": "Kolkata , WestBengal",
+    "bio": "Developer",
+    "github": "https://github.com/zaidsidd360",
+    "interests": [
+        "Web Development",
+        "Open-Source",
+        "Linux"
+    ],
+    "Projects": [
+        {
+            "id": 1,
+            "name": "gitGood",
+            "description": "A webapp for beginner developers to start learning the git cli.",
+            "link": "https://zaidsidd360.github.io/gitgood/"
+        }
+    ],
+    "Academics": "B.Tech in Computer Science and Engineering",
+    "Skills": [
+        "Python",
+        "Java",
+        "Reactjs",
+        "Photoshop",
+        "3D Design"
+    ]
+
+}
 ]
