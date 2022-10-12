@@ -100,7 +100,33 @@
     "Skills": [
       "HTML",
       "CSS",
-      "JS",
+      "JS"
+    ]
+  },
+  {
+    "id": 5,
+    "type": "github",
+    "username": "ilhamansari",
+    "place": "Kolkata , WestBengal",
+    "bio": "Developer",
+    "github": "https://github.com/ilhamansari",
+    "interests": [
+      "Web Development",
+      "blockchain"
+    ],
+    "Projects": [
+      {
+        "id": 1,
+        "name": "Webners",
+        "description": "A pizza corner website",
+        "link": "https://github.com/Abbhiishek/Webners/issues/29"
+      }
+    ],
+    "Academics": "B.Tech in Information Technology",
+    "Skills": [
+      "HTML",
+      "CSS",
+      "C"
     ]
   }
 ]
