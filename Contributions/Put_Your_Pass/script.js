@@ -23,6 +23,7 @@ let timer1 = null;
 // timer1 = setInterval(change, 2000);
 let c = 0;
 const len = colours.length;
+let data = [];
 function change() {
     if (c > len) {
         // clearInterval(timer1);
@@ -55,17 +56,30 @@ let checkno = 1;
 //rendering data from the localStorage:-
 function render() {
     while (arrno <= localStorage.length) {
-        let currentinfo = localStorage.getItem(JSON.parse(arrno));
+        let currentinfo = JSON.parse(localStorage.getItem(arrno));
         let newname = document.createElement('p');
-        newname.innerHTML = currentinfo.name;
+        newname.innerHTML = currentinfo[0].name;
+        newname.style.fontSize = "17px";
+        newname.style.fontWeight = "500";
+        newname.style.fontFamily = "monospace";
+        newname.style.marginTop = "25px";
         u.appendChild(newname);
 
         let newapp = document.createElement('p');
-        newapp.innerHTML = currentinfo.application;
+        newapp.innerHTML = currentinfo[0].application;
+        newapp.style.fontSize = "17px";
+        newapp.style.fontWeight = "500";
+        newapp.style.fontFamily = "monospace";
+        newapp.style.marginTop = "25px";
+
         a.appendChild(newapp);
 
         let newpass = document.createElement('p');
-        newpass.innerHTML = currentinfo.Userpass;
+        newpass.innerHTML = currentinfo[0].Userpass;
+        newpass.style.fontSize = "17px";
+        newpass.style.fontWeight = "500";
+        newpass.style.fontFamily = "monospace";
+        newpass.style.marginTop = "25px";
         p.appendChild(newpass);
         arrno++;
     }
@@ -73,7 +87,7 @@ function render() {
 render();
 
 
-let data = [];
+
 let userData;
 let createBtn = document.getElementById("create");
 createBtn.addEventListener('click', check);
@@ -93,24 +107,6 @@ function check() {
 }
 
 function store() {
-    // let newname = document.createElement('p');
-    // newname.innerHTML = username.value;
-    // newname.style.fontSize = "17px";
-    // newname.style.fontWeight = "500";
-    // newname.style.fontFamily = "monospace";
-    // newname.style.marginTop = "35px";
-    // newname.style.alignItems = "center";
-    // u.appendChild(newname);
-
-
-    // let newapp = document.createElement('p');
-    // newapp.innerHTML = appname.value;
-    // newapp.style.fontSize = "17px";
-    // newapp.style.fontWeight = "500";
-    // newapp.style.fontFamily = "monospace";
-    // newapp.style.marginTop = "35px";
-    // newapp.style.alignItems = "center";
-    // a.appendChild(newapp);
 
     // creating password:- (^~^)
 
@@ -203,23 +199,17 @@ function store() {
     function putting() {
 
         data.push({
+            id: arrno,
             name: username.value,
             application: appname.value,
             Userpass: password
         });
         userData = localStorage.setItem(arrno, JSON.stringify(data));
         render();
+        window.location.reload();
     }
 
     putting();
-
-    // let newpass = document.createElement('p');
-    // newpass.innerHTML = password;
-    // newpass.style.fontSize = "17px";
-    // newpass.style.fontWeight = "500";
-    // newpass.style.fontFamily = "monospace";
-    // newpass.style.marginTop = "35px";
-    // p.appendChild(newpass);
 
     username.value = "";
     appname.value = "";
