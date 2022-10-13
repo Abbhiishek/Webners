@@ -1,15 +1,13 @@
 import './App.css'
 import ContributorCard from './components/ContributorCard'
-import React from 'react'
+import ContributorData from './../CONTRIBUTORS.json'
+import React, { useEffect, useState } from 'react'
 
 function App() {
-  const [contributors, setContributors] = React.useState([])
-  React.useEffect(() => {
-    fetch('/CONTRIBUTORS.json')
-      .then(res => res.json())
-      .then(data => {
-        setContributors(data)
-      })
+
+  const [contributors, setContributors] = useState([])
+  useEffect(() => {
+    setContributors(ContributorData)
   }, [])
 
 
