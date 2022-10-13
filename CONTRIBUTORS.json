@@ -75,6 +75,7 @@
         "id": 4,
         "type": "github",
         "place": "Kolkata , WestBengal",
+        "username": "SayanTan772",
         "bio": "Developer",
         "github": "https://github.com/SayanTan772",
         "interests": [
@@ -238,3 +239,59 @@
             "Photoshop",
             "3D Design"
         ]
+
+    },
+    {
+        "id": 11,
+        "type": "github",
+        "username": "ilhamansari",
+        "place": "Kolkata , WestBengal",
+        "bio": "Developer",
+        "github": "https://github.com/ilhamansari",
+        "interests": [
+            "Web Development",
+            "Open-Source"
+        ],
+        "Projects": [{
+            "id": 1,
+            "name": "Webners",
+            "description": "A pizza corner website.",
+            "link": "https://github.com/ilhamansari/Webners"
+        }],
+        "Academics": "B.Tech in Information Technology",
+        "Skills": [
+            "HTML",
+            "CSS",
+            "C"
+        ]
+    }, {
+        "id": 12,
+        "type": "github",
+        "username": "nirvik07",
+        "place": "Sonarpur , WestBengal",
+        "bio": "Backend Developer",
+        "github": "https://github.com/Nirvik07",
+        "interests": [
+            "Web Development",
+            "Python Development",
+            "App Development",
+            "Open-Source"
+        ],
+        "Projects": [{
+            "id": 1,
+            "name": "Webners",
+            "description": "QR CODE GENERATOR",
+            "link": "https://github.com/Nirvik07/Webners"
+        }],
+        "Academics": "B.Tech in Information Technology",
+        "Skills": [
+            "HTML",
+            "CSS",
+            "DSA",
+            "DBMS",
+            "Django/Flask",
+            "Python",
+            "C"
+        ]
+    }
+]
