@@ -1,320 +1,296 @@
-[
-  {
-    "id": 1,
-    "type": "github",
-    "username": "srinjoy-26",
-    "place": "Kolkata , WestBengal",
-    "bio": "Developer",
-    "github": "https://github.com/srinjoy-26",
-    "interests": [
-      "Web Development",
-      "App Development",
-      "blockchain"
-    ],
-    "Projects": [
-      {
+[{
         "id": 1,
-        "name": "Webners",
-        "description": "A website for developers",
-        "link": "https://github.com/Abbhiishek/Webners"
-      }
-    ],
-    "Academics": "B.Tech in Information Technology",
-    "Skills": [
-      "HTML",
-      "CSS",
-      "JS"
-    ]
-  },
-  {
-    "id": 2,
-    "type": "github",
-    "username": "ChandanP007",
-    "place": "Kolkata , WestBengal",
-    "bio": "Developer",
-    "github": "https://github.com/ChandanP007",
-    "interests": [
-      "Web Development",
-      "Android",
-      "Machine Learning"
-    ],
-    "Projects": [
-      {
-        "id": 1,
-        "name": "Webners",
-        "description": "A simple todo application built using javascript",
-        "link": "https://github.com/Abbhiishek/Webners/Contributions/todocp"
-      }
-    ],
-    "Academics": "BTECH CSE",
-    "Skills": [
-      "HTML",
-      "CSS",
-      "JS",
-      "REACT"
-    ]
-  },
-  {
-    "id": 3,
-    "type": "github",
-    "username": "Amarjit Khan",
-    "place": "Durgapur , WestBengal",
-    "bio": "Developer",
-    "github": "https://github.com/Amarjit-Khan",
-    "interests": [
-      "Web Development",
-      "Machine Learning"
-    ],
-    "Projects": [
-      {
-        "id": 1,
-        "name": "Contributors-website",
-        "description": "A website to list names of all contributors",
-        "link": "https://amarjit-khan.github.io/Contributors-website/"
-      }
-    ],
-    "Academics": "B.Tech in Computer Science",
-    "Skills": [
-      "Java"
-    ]
-  },
-  {
-    "id": 4,
-    "type": "github",
-    "place": "Kolkata , WestBengal",
-    "bio": "Developer",
-    "github": "https://github.com/SayanTan772",
-    "interests": [
-      "Web Development",
-      "Content Writing"
-    ],
-    "Projects": [
-      {
-        "id": 1,
-        "name": "Product Preview Card Component",
-        "description": "A project to learn real-time implementation of flexbox in CSS",
-        "link": "https://sayantan772.github.io/product-preview-card-component/"
-      }
-    ],
-    "Academics": "B.Tech in Computer science and Engineering",
-    "Skills": [
-      "HTML",
-      "CSS",
-      "JS"
-    ]
-  },
-  {
-    "id": 5,
-    "type": "github",
-    "username": "Rudresh-pandey",
-    "place": "Dhanbad , Jharkhand",
-    "bio": "Developer",
-    "github": "https://github.com/Rudresh-pandey",
-    "interests": [
-      "MERN Development",
-      "Python Development"
-    ],
-    "Projects": [
-      {
-        "id": 1,
-        "name": "Put_Your_Pass",
-        "description": "Static application to store all your passwords",
-        "link": "https://github.com/Abbhiishek/Webners/Contributions/Put_Your_Pass"
-      }
-    ],
-    "Academics": "BCA",
-    "Skills": [
-      "JS",
-      "Express.js",
-      "Python",
-      "REACT"
-    ]
-  },
-  {
-    "id": 6,
-    "type": "github",
-    "username": "abhishak3",
-    "place": "Delhi",
-    "bio": "Developer",
-    "github": "https://github.com/abhishak3",
-    "interests": [
-      "Machine Learning",
-      "Python"
-    ],
-    "Projects": [
-      {
-        "id": 1,
-        "name": "Shaker: The Online IDE",
-        "description": "An online code editor which supports all IDE like features with multiple language support.",
-        "link": "https://shaker-online-compiler.herokuapp.com/"
-      }
-    ],
-    "Academics": "B.Tech In CSE",
-    "Skills": [
-      "Python",
-      "ReactJS",
-      "Django/Flask",
-      "Tensorflow"
-    ]
-  },
-  {
-    "id": 7,
-    "type": "github",
-    "username": "12345supu",
-    "place": "Gaya , Bihar",
-    "bio": "Developer",
-    "github": "https://github.com/12345supu",
-    "interests": [
-      "Web Development",
-      "C++"
-    ],
-    "Projects": [
-      {
-        "id": 1,
-        "name": "Donation_Page",
-        "description": "A donation page for collecting the fund",
-        "link": "https://github.com/12345supu/Donation-page"
-      }
-    ],
-    "Academics": "B.Tech(CSE)",
-    "Skills": [
-      "C++",
-      "DSA",
-      "DBMS",
-      "Web development"
-    ]
-  },
-  {
-    "id": 8,
-    "type": "github",
-    "username": "Asttttha",
-    "place": "Kolkata , WestBengal",
-    "bio": "Developer, Open source contributor",
-    "github": "https://github.com/Asttttha",
-    "interests": [
-      "Web Development",
-      "Python"
-    ],
-    "Projects": [
-      {
-        "id": 1,
-        "name": "Paintry Website",
-        "description": "Website for artists to upload their arts and design and interact with other artists.",
-        "link": "https://github.com/Abbhiishek/Webners/issues/27"
-      }
-    ],
-    "Academics": "BTech, Information Technology",
-    "Skills": [
-      "Web development",
-      "Python"
-    ]
-  },
-  {
-    "id": 9,
-    "type": "github",
-    "username": "belugajis",
-    "place": "Kolkata , WestBengal",
-    "bio": "Developer, Open source contributor",
-    "github": "https://github.com/beluhajis",
-    "interests": [
-      "Web Development",
-      "Python"
-    ],
-    "Projects": [
-      
-    ],
-    "Academics": "BTech, Information Technology",
-    "Skills": [
-      "Web development",
-      "Python"
-    ]
-  },
-  {
-    "id": 10,
-    "type": "github",
-    "username": "zaidsidd360",
-    "place": "Kolkata , WestBengal",
-    "bio": "Developer",
-    "github": "https://github.com/zaidsidd360",
-    "interests": [
-        "Web Development",
-        "Open-Source",
-        "Linux"
-    ],
-    "Projects": [
-        {
+        "type": "github",
+        "username": "srinjoy-26",
+        "place": "Kolkata , WestBengal",
+        "bio": "Developer",
+        "github": "https://github.com/srinjoy-26",
+        "interests": [
+            "Web Development",
+            "App Development",
+            "blockchain"
+        ],
+        "Projects": [{
+            "id": 1,
+            "name": "Webners",
+            "description": "A website for developers",
+            "link": "https://github.com/Abbhiishek/Webners"
+        }],
+        "Academics": "B.Tech in Information Technology",
+        "Skills": [
+            "HTML",
+            "CSS",
+            "JS"
+        ]
+    },
+    {
+        "id": 2,
+        "type": "github",
+        "username": "ChandanP007",
+        "place": "Kolkata , WestBengal",
+        "bio": "Developer",
+        "github": "https://github.com/ChandanP007",
+        "interests": [
+            "Web Development",
+            "Android",
+            "Machine Learning"
+        ],
+        "Projects": [{
+            "id": 1,
+            "name": "Webners",
+            "description": "A simple todo application built using javascript",
+            "link": "https://github.com/Abbhiishek/Webners/Contributions/todocp"
+        }],
+        "Academics": "BTECH CSE",
+        "Skills": [
+            "HTML",
+            "CSS",
+            "JS",
+            "REACT"
+        ]
+    },
+    {
+        "id": 3,
+        "type": "github",
+        "username": "Amarjit Khan",
+        "place": "Durgapur , WestBengal",
+        "bio": "Developer",
+        "github": "https://github.com/Amarjit-Khan",
+        "interests": [
+            "Web Development",
+            "Machine Learning"
+        ],
+        "Projects": [{
+            "id": 1,
+            "name": "Contributors-website",
+            "description": "A website to list names of all contributors",
+            "link": "https://amarjit-khan.github.io/Contributors-website/"
+        }],
+        "Academics": "B.Tech in Computer Science",
+        "Skills": [
+            "Java"
+        ]
+    },
+    {
+        "id": 4,
+        "type": "github",
+        "place": "Kolkata , WestBengal",
+        "bio": "Developer",
+        "github": "https://github.com/SayanTan772",
+        "interests": [
+            "Web Development",
+            "Content Writing"
+        ],
+        "Projects": [{
+            "id": 1,
+            "name": "Product Preview Card Component",
+            "description": "A project to learn real-time implementation of flexbox in CSS",
+            "link": "https://sayantan772.github.io/product-preview-card-component/"
+        }],
+        "Academics": "B.Tech in Computer science and Engineering",
+        "Skills": [
+            "HTML",
+            "CSS",
+            "JS"
+        ]
+    },
+    {
+        "id": 5,
+        "type": "github",
+        "username": "Rudresh-pandey",
+        "place": "Dhanbad , Jharkhand",
+        "bio": "Developer",
+        "github": "https://github.com/Rudresh-pandey",
+        "interests": [
+            "MERN Development",
+            "Python Development"
+        ],
+        "Projects": [{
+            "id": 1,
+            "name": "Put_Your_Pass",
+            "description": "Static application to store all your passwords",
+            "link": "https://github.com/Abbhiishek/Webners/Contributions/Put_Your_Pass"
+        }],
+        "Academics": "BCA",
+        "Skills": [
+            "JS",
+            "Express.js",
+            "Python",
+            "REACT"
+        ]
+    },
+    {
+        "id": 6,
+        "type": "github",
+        "username": "abhishak3",
+        "place": "Delhi",
+        "bio": "Developer",
+        "github": "https://github.com/abhishak3",
+        "interests": [
+            "Machine Learning",
+            "Python"
+        ],
+        "Projects": [{
+            "id": 1,
+            "name": "Shaker: The Online IDE",
+            "description": "An online code editor which supports all IDE like features with multiple language support.",
+            "link": "https://shaker-online-compiler.herokuapp.com/"
+        }],
+        "Academics": "B.Tech In CSE",
+        "Skills": [
+            "Python",
+            "ReactJS",
+            "Django/Flask",
+            "Tensorflow"
+        ]
+    },
+    {
+        "id": 7,
+        "type": "github",
+        "username": "12345supu",
+        "place": "Gaya , Bihar",
+        "bio": "Developer",
+        "github": "https://github.com/12345supu",
+        "interests": [
+            "Web Development",
+            "C++"
+        ],
+        "Projects": [{
+            "id": 1,
+            "name": "Donation_Page",
+            "description": "A donation page for collecting the fund",
+            "link": "https://github.com/12345supu/Donation-page"
+        }],
+        "Academics": "B.Tech(CSE)",
+        "Skills": [
+            "C++",
+            "DSA",
+            "DBMS",
+            "Web development"
+        ]
+    },
+    {
+        "id": 8,
+        "type": "github",
+        "username": "Asttttha",
+        "place": "Kolkata , WestBengal",
+        "bio": "Developer, Open source contributor",
+        "github": "https://github.com/Asttttha",
+        "interests": [
+            "Web Development",
+            "Python"
+        ],
+        "Projects": [{
+            "id": 1,
+            "name": "Paintry Website",
+            "description": "Website for artists to upload their arts and design and interact with other artists.",
+            "link": "https://github.com/Abbhiishek/Webners/issues/27"
+        }],
+        "Academics": "BTech, Information Technology",
+        "Skills": [
+            "Web development",
+            "Python"
+        ]
+    },
+    {
+        "id": 9,
+        "type": "github",
+        "username": "beluga2003",
+        "place": "Kolkata , WestBengal",
+        "bio": "Developer, Open source contributor",
+        "github": "https://github.com/beluga2003",
+        "interests": [
+            "Web Development",
+            "Python"
+        ],
+        "Projects": [
+
+        ],
+        "Academics": "BTech, Information Technology",
+        "Skills": [
+            "Web development",
+            "Python"
+        ]
+    },
+    {
+        "id": 10,
+        "type": "github",
+        "username": "zaidsidd360",
+        "place": "Kolkata , WestBengal",
+        "bio": "Developer",
+        "github": "https://github.com/zaidsidd360",
+        "interests": [
+            "Web Development",
+            "Open-Source",
+            "Linux"
+        ],
+        "Projects": [{
             "id": 1,
             "name": "gitGood",
             "description": "A webapp for beginner developers to start learning the git cli.",
             "link": "https://zaidsidd360.github.io/gitgood/"
-        }
-    ],
-    "Academics": "B.Tech in Computer Science and Engineering",
-    "Skills": [
-        "Python",
-        "Java",
-        "Reactjs",
-        "Photoshop",
-        "3D Design"
-    ]
+        }],
+        "Academics": "B.Tech in Computer Science and Engineering",
+        "Skills": [
+            "Python",
+            "Java",
+            "Reactjs",
+            "Photoshop",
+            "3D Design"
+        ]
 
-},
-{
-  "id": 11,
-  "type": "github",
-  "username": "ilhamansari",
-  "place": "Kolkata , WestBengal",
-  "bio": "Developer",
-  "github": "https://github.com/ilhamansari",
-  "interests": [
-      "Web Development",
-      "Open-Source"
-  ],
-  "Projects": [
-      {
-          "id": 1,
-          "name": "Webners",
-          "description": "A pizza corner website.",
-          "link": "https://github.com/ilhamansari/Webners"
-      }
-  ],
-  "Academics": "B.Tech in Information Technology",
-  "Skills": [
-     "HTML",
-     "CSS",
-     "C"
-  ]
-}
-{
-  "id": 12,
-  "type": "github",
-  "username": "nirvik07",
-  "place": "Sonarpur , WestBengal",
-  "bio": "Backend Developer",
-  "github": "https://github.com/Nirvik07",
-  "interests": [
-      "Web Development",
-      "Python Development",
-      "App Development",
-      "Open-Source"
-  ],
-  "Projects": [
-      {
-          "id": 1,
-          "name": "Webners",
-          "description": "QR CODE GENERATOR",
-          "link": "https://github.com/Nirvik07/Webners"
-      }
-  ],
-  "Academics": "B.Tech in Information Technology",
-  "Skills": [
-     "HTML",
-     "CSS",
-     "DSA",
-     "DBMS",
-     "Django/Flask",
-     "Python",
-     "C"
-  ]
-}
+    },
+    {
+        "id": 11,
+        "type": "github",
+        "username": "ilhamansari",
+        "place": "Kolkata , WestBengal",
+        "bio": "Developer",
+        "github": "https://github.com/ilhamansari",
+        "interests": [
+            "Web Development",
+            "Open-Source"
+        ],
+        "Projects": [{
+            "id": 1,
+            "name": "Webners",
+            "description": "A pizza corner website.",
+            "link": "https://github.com/ilhamansari/Webners"
+        }],
+        "Academics": "B.Tech in Information Technology",
+        "Skills": [
+            "HTML",
+            "CSS",
+            "C"
+        ]
+    }, {
+        "id": 12,
+        "type": "github",
+        "username": "nirvik07",
+        "place": "Sonarpur , WestBengal",
+        "bio": "Backend Developer",
+        "github": "https://github.com/Nirvik07",
+        "interests": [
+            "Web Development",
+            "Python Development",
+            "App Development",
+            "Open-Source"
+        ],
+        "Projects": [{
+            "id": 1,
+            "name": "Webners",
+            "description": "QR CODE GENERATOR",
+            "link": "https://github.com/Nirvik07/Webners"
+        }],
+        "Academics": "B.Tech in Information Technology",
+        "Skills": [
+            "HTML",
+            "CSS",
+            "DSA",
+            "DBMS",
+            "Django/Flask",
+            "Python",
+            "C"
+        ]
+    }
 ]
