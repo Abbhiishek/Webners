@@ -285,4 +285,36 @@
      "C"
   ]
 }
+{
+  "id": 12,
+  "type": "github",
+  "username": "nirvik07",
+  "place": "Sonarpur , WestBengal",
+  "bio": "Backend Developer",
+  "github": "https://github.com/Nirvik07",
+  "interests": [
+      "Web Development",
+      "Python Development",
+      "App Development",
+      "Open-Source"
+  ],
+  "Projects": [
+      {
+          "id": 1,
+          "name": "Webners",
+          "description": "QR CODE GENERATOR",
+          "link": "https://github.com/Nirvik07/Webners"
+      }
+  ],
+  "Academics": "B.Tech in Information Technology",
+  "Skills": [
+     "HTML",
+     "CSS",
+     "DSA",
+     "DBMS",
+     "Django/Flask",
+     "Python",
+     "C"
+  ]
+}
 ]
