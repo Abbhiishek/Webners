@@ -5,8 +5,7 @@ import React from 'react'
 function App() {
   const [contributors, setContributors] = React.useState([])
   React.useEffect(() => {
-    fetch('./../CONTRIBUTORS.json')
-
+    fetch('/CONTRIBUTORS.json')
       .then(res => res.json())
       .then(data => {
         setContributors(data)

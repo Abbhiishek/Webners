@@ -2,7 +2,7 @@ import React from 'react'
 
 function ContributorCard({ contributor }) {
     return (
-        <div className='rounded flex justify-center  p-5 bg-slate-600 relative'>
+        <div className='rounded flex justify-center  p-5 bg-slate-600 relative' key={contributor?.id}>
             <div className='flex flex-col p-2 items-center justify-center'>
                 <div className='flex flex-row items-center justify-center'>
                     <img
@@ -29,8 +29,8 @@ function ContributorCard({ contributor }) {
                 <div className='flex flex-col items-center justify-center mt-3'>
                     <div className='flex  flex-col text-start'>
                         {
-                            contributor.interests.map((interest) => (
-                                <p className=' text-xl'>➡️{interest}</p>
+                            contributor.interests.map((interest, index) => (
+                                <p className=' text-xl' key={index}>➡️{interest}</p>
                             ))
                         }
                     </div>
@@ -51,8 +51,8 @@ function ContributorCard({ contributor }) {
                 <div className='flex flex-col items-center justify-center mb-2 px-2 absolute bottom-0'>
                     <div className='grid   grid-flow-col justify-center gap-3'>
                         {
-                            contributor.Skills.map((Skill) => (
-                                <span className='text-white bg-gray-800 p-1 overflow-hidden rounded'>
+                            contributor.Skills.map((Skill, index) => (
+                                <span className='text-white bg-gray-800 p-1 overflow-hidden rounded' key={index}>
                                     <p className='text-xs'>{Skill}</p>
                                 </span>
                             ))
