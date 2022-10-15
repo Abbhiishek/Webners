@@ -264,7 +264,8 @@
             "CSS",
             "C"
         ]
-    }, {
+    }, 
+    {
         "id": 12,
         "type": "github",
         "username": "nirvik07",
@@ -281,6 +282,11 @@
             "id": 1,
             "name": "Webners",
             "description": "QR CODE GENERATOR",
+            "link": "https://github.com/Nirvik07/Webners"
+        },{
+            "id": 2,
+            "name": "Webners",
+            "description": "SIGNUP FORM",
             "link": "https://github.com/Nirvik07/Webners"
         }],
         "Academics": "B.Tech in Information Technology",
