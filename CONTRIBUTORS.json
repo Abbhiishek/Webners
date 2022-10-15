@@ -299,5 +299,37 @@
             "Python",
             "C"
         ]
+    },
+    {
+        "id": 13,
+        "type": "github",
+        "username": "Subha-5",
+        "place": "Kolkata , WestBengal",
+        "bio": "Web Developer",
+        "github": "https://github.com/Subha-5",
+        "interests": [
+            "Web Development",
+            "Machine Learning",
+            "Open-source",
+            "App Development",
+            "Software Development"
+        ],
+        "Projects": [
+            {
+                "id": 1,
+                "name": "Webners",
+                "description": "Dice Simulator",
+                "link": "https://github.com/Subha-5/Webners"
+            }
+        ],
+        "Academics": "B.Tech in Information Technology",
+        "Skills": [
+            "C++",
+            "Python",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+
     }
 ]
