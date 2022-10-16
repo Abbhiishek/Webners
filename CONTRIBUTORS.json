@@ -330,5 +330,29 @@
             "CSS",
             "JavaScript"
         ]
+    },
+{
+        "id": 14,
+        "type": "github",
+        "username": "pranav2012",
+        "place": "Delhi, India",
+        "bio": "Developer",
+        "github": "https://github.com/pranav2012",
+        "interests": [
+            "Web Development",
+            "Backend Development"
+        ],
+        "Projects": [{
+            "id": 1,
+            "name": "Next with Redux",
+            "description": "nextjs implementation with redux",
+            "link": "https://github.com/Abbhiishek/Webners/tree/main/Contributions/next-redux"
+        }],
+        "Academics": "B.Tech in Information Technology",
+        "Skills": [
+            "NextJS",
+            "UI",
+            "JS"
+        ]
     }
 ]
