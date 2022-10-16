@@ -239,7 +239,6 @@
             "Photoshop",
             "3D Design"
         ]
-
     },
     {
         "id": 11,
@@ -330,5 +329,35 @@
             "CSS",
             "JavaScript"
         ]
-    }
+    },
+    {
+  "id": 14,
+  "type": "github",
+  "username": "sai-ram-kaushik",
+  "place": "New Delhi",
+  "bio": "Frontend Developer | Graphic Designer | Cyber Security Enthusiast",
+  "github": "https://github.com/sai-ram-kaushik",
+  "interests": [
+      "Web Development",
+      "Graphic Designer",
+      "Cyber Security"
+  ],
+  "Projects": [
+      {
+          "id": 1,
+          "name": "text-analyzer",
+          "description": "This text analysis tool provides information on the complexity of a text, as well as statistics on word frequency and character count. It can be of assistance to translators when calculating quotes for clients.",
+          "link": "https://github.com/sai-ram-kaushik/text-analyzer"
+      }
+  ],
+  "Academics": "B.Tech in Computer Science and Engineering",
+  "Skills": [
+      "ReactJs",
+      "Node Js",
+      "Figma",
+      "Photoshop",
+      "Tailwind CSS"
+  ]
+
+}
 ]
