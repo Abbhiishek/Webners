@@ -137,7 +137,7 @@ Don't forget to include the comments as seen above. Feel free to include additio
 ## BONUS!
 * Checkout what other people have done and take inspiration ✨!
 
-## Thanks to all the contributors ❤️
+## Kudos to all the contributors ❤️
 <a href = "https://github.com/Abbhiishek/Webners/graphs/contributors">
   <img src = "https://contrib.rocks/image?repo=Abbhiishek/Webners"/>
 </a>
