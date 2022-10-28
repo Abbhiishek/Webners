@@ -359,5 +359,39 @@
       "Tailwind CSS"
   ]
 
+},
+{
+    "id": 15,
+    "type": "github",
+    "username": "Yuvraj883",
+    "place": "New Delhi",
+    "bio": "Front-End Developer",
+    "github": "https://github.com/Yuvraj883",
+    "interests": [
+        "Web Development",
+        "Front-end",
+        "Back-end",
+        "FootBall", 
+        "Playing Flute"
+    ],
+    "Projects": [{
+        "id": 1,
+        "name": "Canvas",
+        "description": "A white-board for teaching, which I made as part of a JS Challenge on LinkedIn.",
+        "link": "https://github.com/Yuvraj883/LinkedInJsChallenge2"
+    }],
+    "Academics": "Pursuing BTech in IT branch from GGSIPU",
+    "Skills": [
+        "HTML",
+        "CSS",
+        "JS",
+        "VueJs",
+        "NodeJs",
+        "C/CPP",
+        "Java",
+        "Git/Github"
+    ]
 }
 ]
+
+
