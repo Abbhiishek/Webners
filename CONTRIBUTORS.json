@@ -359,10 +359,7 @@
       "Tailwind CSS"
   ]
 
-}
-]
-
-
+},
 {
     "id": 15,
     "type": "github",
@@ -394,4 +391,7 @@
         "Java",
         "Git/Github"
     ]
-},
+}
+]
+
+
