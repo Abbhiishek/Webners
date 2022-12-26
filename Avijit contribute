@@ -1,0 +1,26 @@
+    {
+        "id": 1,
+        "type": "github",
+        "username": "Avijit Pakhira",
+        "place": "Kolkata , WestBengal",
+        "bio": "Developer",
+        "github": "https://github.com/avijit-28",
+        "interests": [
+            "Web Development",
+            "App Development",
+            "Machine Learning"
+        ],
+        "Projects": [
+            {
+                "id": 1,
+                "name": "Webners",
+                "description": "A website for developers",
+                "link": ""
+            }
+        ],
+        "Academics": "B.Tech in Computer Science and Engineering",
+        "Skills": [
+            "Python",
+        ],
+
+    }
